@@ -5,7 +5,7 @@
   "license": "Apache 2.0",
   "autoload": {
     "psr-4": {
-      "a\\": "src/"
+      "Daisys\\": "src/"
     }
   },
   "repositories": [
@@ -18,12 +18,34 @@
           "url":"git@github.com:rojr/SuperCMS.git",
           "type":"git",
           "reference":"master"
+        },
+        "type":"library",
+        "autoload": {
+          "psr-4": {
+            "SuperCMS\\": "src/"
+          }
         }
       }
     }
   ],
   "require": {
-    "rojr/SuperCMS": "*"
+    "rojr/SuperCMS": "*",
+    "rhubarbphp/scaffold-authentication": "^1.0",
+    "rhubarbphp/scaffold-authentication-with-roles": "dev-master",
+    "rhubarbphp/scaffold-background-tasks": "^1.0.0",
+    "rhubarbphp/scaffold-navigation-menu": "1.x-dev",
+    "rhubarbphp/scaffold-communications": "^1.0.0",
+    "rhubarbphp/module-patterns": "dev-develop",
+    "rhubarbphp/module-stem": "1.2.2",
+    "rhubarbphp/module-leaf": "*",
+    "rhubarbphp/module-leaf-common-controls": "dev-master as 1.0.x-dev",
+    "rhubarbphp/module-leaf-search-panel": "^1.0.0",
+    "rhubarbphp/module-leaf-tabs": "^1.0.0",
+    "rhubarbphp/module-leaf-table": "dev-master",
+    "rhubarbphp/module-leaf-crud": "^1.0.0",
+    "rhubarbphp/rhubarb": "dev-master as 1.1.3",
+    "rhubarbphp/scaffold-repository-log": "dev-master",
+    "twbs/bootstrap": "^3.3"
   },
   "config": {
     "bin-dir": "bin/"
