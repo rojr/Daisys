@@ -7,14 +7,24 @@ bridge.prototype.constructor = bridge;
 
 bridge.prototype.attachEvents = function () {
     var input = document.querySelector('#' + this.leafPath + '_Query');
+    var categoryDropdown = document.querySelector('.search-categories');
+
     var self = this;
     var searchTimeout = null;
     input.onkeyup = function () {
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(function(){
             self.queryProducts(input.value)
-        }, 400);
+        }, 100);
     };
+
+    categoryDropdown.onclick = function() {
+        if (this.classList.contains('open')) {
+            this.classList.remove('open');
+        } else {
+            this.classList.add('open');
+        }
+    }
 };
 
 bridge.prototype.queryProducts = function(query) {

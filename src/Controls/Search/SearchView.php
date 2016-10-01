@@ -2,6 +2,7 @@
 
 namespace Daisys\Controls\Search;
 
+use Rhubarb\Leaf\Controls\Common\Buttons\Button;
 use Rhubarb\Leaf\Controls\Common\Text\TextBox;
 use Rhubarb\Leaf\Leaves\LeafDeploymentPackage;
 use Rhubarb\Leaf\Views\View;
@@ -11,24 +12,35 @@ class SearchView extends View
     protected function createSubLeaves()
     {
         $this->registerSubLeaf(
-            $input = new TextBox('Query')
+            $input = new TextBox('Query'),
+            $submit = new Button('Search', 'Search', function() {
+
+            })
         );
 
         $input->setPlaceholderText('Search for products');
+        $submit->addCssClassNames('search-button');
     }
 
     protected function printViewContent()
     {
         ?>
 
-        <div class="row">
-            <div class="col-xs-2"></div>
+        <div class="row search-group">
+            <div class="col-xs-2">
+                <div class="search-categories">
+                    <p>Categories <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+                    <div class="category-list"></div>
+                </div>
+            </div>
             <div class="col-xs-8 search-input">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <?= $this->leaves['Query']; ?>
                 <ul class="search-response"></ul>
             </div>
-            <div class="col-xs-2"></div>
+            <div class="col-xs-2">
+                <?= $this->leaves['Search']; ?>
+            </div>
         </div>
 
         <?php
