@@ -2,6 +2,7 @@
 
 namespace Daisys;
 
+use Daisys\Views\DaisyDefaultView;
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Encryption\HashProvider;
 use Rhubarb\Crown\Encryption\Sha512HashProvider;
@@ -13,6 +14,7 @@ use Rhubarb\Stem\Repositories\Repository;
 use Rhubarb\Stem\StemModule;
 use SuperCMS\Custard\ApplicationDemoDataSeeder;
 use SuperCMS\Layouts\DefaultLayout;
+use SuperCMS\Leaves\IndexView;
 use SuperCMS\SuperCMS;
 
 class DaisysApplication extends Application
@@ -32,6 +34,8 @@ class DaisysApplication extends Application
         //SolutionSchema::registerSchema('HackTheHubSchema', HackTheHubSolutionSchema::class);
 
         HashProvider::setProviderClassName(Sha512HashProvider::class);
+
+        $this->container()->registerClass(IndexView::class, DaisyDefaultView::class);
     }
 
     protected function getModules()
