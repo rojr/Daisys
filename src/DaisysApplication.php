@@ -6,6 +6,7 @@ use Daisys\Views\DaisyDefaultView;
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Encryption\HashProvider;
 use Rhubarb\Crown\Encryption\Sha512HashProvider;
+use Rhubarb\Crown\Html\ResourceLoader;
 use Rhubarb\Crown\Layout\LayoutModule;
 use Rhubarb\Leaf\LeafModule;
 use Rhubarb\Stem\Custard\SeedDemoDataCommand;
@@ -32,6 +33,7 @@ class DaisysApplication extends Application
         Repository::setDefaultRepositoryClassName(MySql::class);
 
         //SolutionSchema::registerSchema('HackTheHubSchema', HackTheHubSolutionSchema::class);
+        ResourceLoader::loadResource('/static/css/daisy.css');
 
         HashProvider::setProviderClassName(Sha512HashProvider::class);
 

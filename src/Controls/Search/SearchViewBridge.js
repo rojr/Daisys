@@ -18,8 +18,12 @@ bridge.prototype.attachEvents = function () {
 };
 
 bridge.prototype.queryProducts = function(query) {
-    self.raiseServerEvent('', query, function(products){
-
+    this.raiseServerEvent('search', query, function(products){
+        var text = '';
+        for (var i = 0; i < products.length; i++) {
+            text += '<li><a href="' + products[i].Href + '">' + products[i].Name + '</a>' + '</li>';
+        }
+        document.querySelector('.search-response').innerHTML = text;
     });
 };
 

@@ -11,14 +11,27 @@ class SearchView extends View
     protected function createSubLeaves()
     {
         $this->registerSubLeaf(
-            new TextBox('Query')
+            $input = new TextBox('Query')
         );
+
+        $input->setPlaceholderText('Search for products');
     }
 
     protected function printViewContent()
     {
-        print '<i class="fa fa-search" aria-hidden="true"></i>';
-        print $this->leaves['Query'];
+        ?>
+
+        <div class="row">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8 search-input">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <?= $this->leaves['Query']; ?>
+                <ul class="search-response"></ul>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+
+        <?php
     }
 
     public function getDeploymentPackage()
