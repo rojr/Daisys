@@ -21,7 +21,7 @@ bridge.prototype.queryProducts = function(query) {
     this.raiseServerEvent('search', query, function(products){
         var text = '';
         for (var i = 0; i < products.length; i++) {
-            text += '<li><a href="' + products[i].Href + '">' + products[i].Name + '</a>' + '</li>';
+            text += '<a href="' + products[i].Href + '"><li>' + products[i].Name  + '</li>' + '</a>'    ;
         }
         document.querySelector('.search-response').innerHTML = text;
     });
