@@ -2,7 +2,7 @@
 
 namespace Daisys;
 
-use Daisys\Views\DaisyDefaultView;
+use Daisys\Leaves\DaisyIndexView;
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Encryption\HashProvider;
 use Rhubarb\Crown\Encryption\Sha512HashProvider;
@@ -37,7 +37,7 @@ class DaisysApplication extends Application
 
         HashProvider::setProviderClassName(Sha512HashProvider::class);
 
-        $this->container()->registerClass(IndexView::class, DaisyDefaultView::class);
+        $this->container()->registerClass(IndexView::class, DaisyIndexView::class);
     }
 
     protected function getModules()
