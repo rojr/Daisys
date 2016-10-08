@@ -2,9 +2,9 @@
 
 namespace Daisys\Controls\Search;
 
+use Daisys\Session\DaisySession;
 use Rhubarb\Leaf\Leaves\Leaf;
 use Rhubarb\Stem\Filters\AndGroup;
-use Rhubarb\Stem\Filters\AnyWordsGroup;
 use Rhubarb\Stem\Filters\Contains;
 use Rhubarb\Stem\Filters\Equals;
 use SuperCMS\Models\Product\Product;
@@ -19,6 +19,9 @@ class SearchLeaf extends Leaf
     protected function createModel()
     {
         $model = new SearchModel();
+
+        $session = DaisySession::singleton();
+        $model->Query = $session->searchQuery;
 
         $model->searchEvent->attachHandler(function($query) {
             $products = Product::find(

@@ -3,11 +3,13 @@
 namespace Daisys;
 
 use Daisys\Leaves\DaisyIndexView;
+use Daisys\Leaves\ProductSearch\ProductSearchLeaf;
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Encryption\HashProvider;
 use Rhubarb\Crown\Encryption\Sha512HashProvider;
 use Rhubarb\Crown\Html\ResourceLoader;
 use Rhubarb\Crown\Layout\LayoutModule;
+use Rhubarb\Crown\UrlHandlers\ClassMappedUrlHandler;
 use Rhubarb\Leaf\LeafModule;
 use Rhubarb\Stem\Custard\SeedDemoDataCommand;
 use Rhubarb\Stem\Repositories\MySql\MySql;
@@ -53,6 +55,14 @@ class DaisysApplication extends Application
     protected function registerUrlHandlers()
     {
         parent::registerUrlHandlers();
+
+        $this->addUrlHandlers(
+            [
+                '/search/' => $searchHandler = new ClassMappedUrlHandler(ProductSearchLeaf::class),
+            ]
+        );
+
+        $searchHandler->setPriority(100);
     }
 
     public function getCustardCommands()

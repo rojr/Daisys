@@ -45,6 +45,7 @@
     list-style: none;
     max-height: 300px;
     overflow-y: scroll;
+    z-index: 9999;
 }
 
 .search-response li {
@@ -113,4 +114,96 @@
 
 #main-page-slider .item {
     max-height: 300px;
+}
+
+.promotional-row {
+    height: 250px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.promotional-row .col-xs-6 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.promotional-row .col-xs-4 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.promotional-row .col-xs-6:first-child {
+    padding-left: 0;
+}
+
+.promotional-row .col-xs-6:last-child {
+    padding-right: 0;
+}
+
+.promotional-row .col-xs-4:first-child {
+    padding-left: 0;
+}
+
+.promotional-row .col-xs-4:last-child {
+    padding-right: 0;
+}
+
+.promotional-row .promotional-content {
+    background-color: #feb1e4;
+    height: 100%;
+}
+
+#facebook-link {
+    background-color: #3b5998;
+
+}
+
+.promotional-content {
+    align-content: center;
+    text-align: center;
+}
+
+.promotional-content img {
+    height: 100%;
+}
+
+.products-list {
+
+}
+
+.search-product {
+    padding: 7.5px;
+    margin-top: 7.5px;
+    background-color: #ffd8f4;
+    height: 140px;
+}
+
+.search-product .product-image {
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ffabe7;
+    padding: 0;
+}
+
+.search-product img {
+    height: 100%;
+}
+
+.marginless {
+    margin: 0;
+}
+
+.button {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    color: #fff;
+    background-color: #feb1e4;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }

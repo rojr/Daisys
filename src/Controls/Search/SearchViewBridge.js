@@ -15,7 +15,13 @@ bridge.prototype.attachEvents = function () {
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(function(){
             self.queryProducts(input.value)
-        }, 100);
+        }, 400);
+    };
+
+    input.onclick = function(event) {
+        document.querySelector('.search-response').style.display = 'block';
+        event.stopPropagation();
+        return false;
     };
 
     categoryDropdown.onclick = function() {
@@ -24,7 +30,11 @@ bridge.prototype.attachEvents = function () {
         } else {
             this.classList.add('open');
         }
-    }
+    };
+
+    document.onclick = function() {
+        document.querySelector('.search-response').style.display = 'none';
+    };
 };
 
 bridge.prototype.queryProducts = function(query) {
