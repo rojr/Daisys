@@ -46,7 +46,7 @@ class ProductSearchView extends DaisyDefaultView
             <div class="col-xs-3 product-image">
                 <img src="{$product->getDefaultImage()}">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 product-description">
                 <p class="product-title">{$product->Name}</p>
                 <p>{$product->Description}</p>
             </div>

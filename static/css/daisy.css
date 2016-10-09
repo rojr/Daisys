@@ -220,6 +220,7 @@ body {
     margin-top: 7.5px;
     background-color: #ffd8f4;
     height: 130px;
+    border: 1px solid #ffabe7;
 }
 
 .search-product .product-image {
@@ -288,4 +289,13 @@ body {
 .product-price {
     position: relative;
     height: 100%;
+}
+
+.product-description {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.product-description::-webkit-scrollbar {
+    display: none;
 }
