@@ -16,10 +16,10 @@ class ProductSearchView extends DaisyDefaultView
 
         ?>
         <div class="row">
-            <div class="col-xs-2">
+            <div class="col-sm-2">
                 <?php $this->printFilters() ?>
             </div>
-            <div class="col-xs-10">
+            <div class="col-sm-10">
                 <?php $this->printProducts()?>
             </div>
         </div>
@@ -42,16 +42,19 @@ class ProductSearchView extends DaisyDefaultView
     protected function printProduct(Product $product)
     {
         print <<<HTML
-        <div class="search-product row">
+        <div class="search-product row marginless">
             <div class="col-xs-3 product-image">
                 <img src="{$product->getDefaultImage()}">
             </div>
             <div class="col-xs-6">
-                <h2>{$product->Name}</h2>
+                <p class="product-title">{$product->Name}</p>
+                <p>{$product->Description}</p>
             </div>
-            <div class="col-xs-3">
-                <h2><b>&pound{$product->getDefaultProductVariation()->Price}</b></h2>
-                <a href="{$product->getPublicUrl()}" class="button">View</a>
+            <div class="col-xs-3 product-price">
+                <div class="pull-right">
+                    <p class="product-cost pull-right">&pound{$product->getDefaultProductVariation()->Price}</p>
+                    <a href="{$product->getPublicUrl()}" class="button pull-right">View</a>
+                </div>
             </div>
         </div>
 HTML;
