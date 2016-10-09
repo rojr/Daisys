@@ -24,16 +24,20 @@ bridge.prototype.attachEvents = function () {
         return false;
     };
 
-    categoryDropdown.onclick = function() {
+    categoryDropdown.onclick = function(event) {
+
         if (this.classList.contains('open')) {
             this.classList.remove('open');
         } else {
             this.classList.add('open');
         }
+        event.stopPropagation();
+        return false;
     };
 
     document.onclick = function() {
         document.querySelector('.search-response').style.display = 'none';
+        categoryDropdown.classList.remove('open');
     };
 };
 

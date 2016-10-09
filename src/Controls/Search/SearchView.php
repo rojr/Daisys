@@ -27,7 +27,7 @@ class SearchView extends View
         $input->addHtmlAttribute('autocomplete', 'off');
 
         $input->setPlaceholderText('Search for products');
-        $submit->addCssClassNames('search-button button');
+        $submit->addCssClassNames('search-button');
     }
 
     protected function printViewContent()
