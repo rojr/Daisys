@@ -2,9 +2,9 @@
 
 namespace Daisys\Session;
 
-use Rhubarb\Crown\Sessions\Session;
+use SuperCMS\Session\SuperCMSSession;
 
-class DaisySession extends Session
+class DaisySession extends SuperCMSSession
 {
     public $searchQuery = '';
 }

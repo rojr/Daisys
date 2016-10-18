@@ -1,11 +1,11 @@
 <?php
 
-namespace Daisys\Views;
+namespace Daisys\Leaves\Views;
 
-use Daisys\Controls\Search\SearchLeaf;
-use Rhubarb\Leaf\Views\View;
+use Daisys\Views\SearchPanelTrait;
+use SuperCMS\Leaves\Site\Product\ProductItemView;
 
-class DaisyDefaultView extends View
+class ProductView extends ProductItemView
 {
     use SearchPanelTrait;
 
@@ -19,5 +19,7 @@ class DaisyDefaultView extends View
     protected function printViewContent()
     {
         $this->printSearchPanel();
+
+        parent::printViewContent();
     }
 }

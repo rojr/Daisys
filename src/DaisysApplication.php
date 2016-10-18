@@ -4,6 +4,7 @@ namespace Daisys;
 
 use Daisys\Leaves\DaisyIndexView;
 use Daisys\Leaves\ProductSearch\ProductSearchLeaf;
+use Daisys\Leaves\Views\ProductView;
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Encryption\HashProvider;
 use Rhubarb\Crown\Encryption\Sha512HashProvider;
@@ -18,6 +19,7 @@ use Rhubarb\Stem\StemModule;
 use SuperCMS\Custard\ApplicationDemoDataSeeder;
 use SuperCMS\Layouts\DefaultLayout;
 use SuperCMS\Leaves\IndexView;
+use SuperCMS\Leaves\Site\Product\ProductItemView;
 use SuperCMS\SuperCMS;
 
 class DaisysApplication extends Application
@@ -40,6 +42,7 @@ class DaisysApplication extends Application
         HashProvider::setProviderClassName(Sha512HashProvider::class);
 
         $this->container()->registerClass(IndexView::class, DaisyIndexView::class);
+        $this->container()->registerClass(ProductItemView::class, ProductView::class);
     }
 
     protected function getModules()
