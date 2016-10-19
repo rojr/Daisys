@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03b184d6cf271d34a3a6459161fa2cf5",
+    "hash": "21e58f4aae806fce58c6cc8dee3ef607",
+    "content-hash": "eba5c01d58d02244945a8021468c0db4",
     "packages": [
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -61,12 +62,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "607ce1d4005af32dd866c4a402459494c168d555"
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/607ce1d4005af32dd866c4a402459494c168d555",
-                "reference": "607ce1d4005af32dd866c4a402459494c168d555",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +101,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-09-25 13:41:54"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "rhubarbphp/custard",
@@ -225,16 +226,16 @@
         },
         {
             "name": "rhubarbphp/module-leaf-common-controls",
-            "version": "dev-master",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Leaf.CommonControls.git",
-                "reference": "35365139fa3d02445cdf193e94f3d2d5266c3db4"
+                "reference": "544c96d6632493ffab909855f3cab3e6954214d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.CommonControls/zipball/35365139fa3d02445cdf193e94f3d2d5266c3db4",
-                "reference": "35365139fa3d02445cdf193e94f3d2d5266c3db4",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.CommonControls/zipball/544c96d6632493ffab909855f3cab3e6954214d5",
+                "reference": "544c96d6632493ffab909855f3cab3e6954214d5",
                 "shasum": ""
             },
             "require": {
@@ -260,7 +261,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-09-30 15:18:27"
+            "time": "2016-10-14 14:10:38"
         },
         {
             "name": "rhubarbphp/module-leaf-crud",
@@ -390,17 +391,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Leaf.Table.git",
-                "reference": "36c4591ad34c0aeb952a57d066b7387a65a8eb1f"
+                "reference": "c181a3cd5d2bb73dc12eb2ca8387f019701b374f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.Table/zipball/36c4591ad34c0aeb952a57d066b7387a65a8eb1f",
-                "reference": "36c4591ad34c0aeb952a57d066b7387a65a8eb1f",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.Table/zipball/c181a3cd5d2bb73dc12eb2ca8387f019701b374f",
+                "reference": "c181a3cd5d2bb73dc12eb2ca8387f019701b374f",
                 "shasum": ""
             },
             "require": {
                 "rhubarbphp/module-leaf": "^1.1.0",
-                "rhubarbphp/module-leaf-paging": "^1.0.3"
+                "rhubarbphp/module-leaf-paging": "^1.0.3",
+                "rhubarbphp/module-stem": "^1.3.7"
             },
             "type": "library",
             "autoload": {
@@ -422,7 +424,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-08-24 11:23:07"
+            "time": "2016-10-11 09:45:51"
         },
         {
             "name": "rhubarbphp/module-leaf-tabs",
@@ -507,16 +509,16 @@
         },
         {
             "name": "rhubarbphp/module-stem",
-            "version": "1.2.2",
+            "version": "1.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Stem.git",
-                "reference": "569c84698e28895ffaac70e8dacaf398b64c3f10"
+                "reference": "66b0bc4541a93d95dcb88d65f103a22ddd5edf9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Stem/zipball/569c84698e28895ffaac70e8dacaf398b64c3f10",
-                "reference": "569c84698e28895ffaac70e8dacaf398b64c3f10",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Stem/zipball/66b0bc4541a93d95dcb88d65f103a22ddd5edf9e",
+                "reference": "66b0bc4541a93d95dcb88d65f103a22ddd5edf9e",
                 "shasum": ""
             },
             "require": {
@@ -555,20 +557,20 @@
                 "orm",
                 "php"
             ],
-            "time": "2016-08-12 08:56:05"
+            "time": "2016-10-16 19:29:33"
         },
         {
             "name": "rhubarbphp/rhubarb",
-            "version": "dev-master",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Rhubarb.git",
-                "reference": "581360a1393e54a76bde62c4ee428847364234a1"
+                "reference": "c34bd792a12d99e1d3ff658861ff6e7d3a6f574b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/581360a1393e54a76bde62c4ee428847364234a1",
-                "reference": "581360a1393e54a76bde62c4ee428847364234a1",
+                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/c34bd792a12d99e1d3ff658861ff6e7d3a6f574b",
+                "reference": "c34bd792a12d99e1d3ff658861ff6e7d3a6f574b",
                 "shasum": ""
             },
             "require": {
@@ -602,11 +604,11 @@
                 "framework",
                 "php"
             ],
-            "time": "2016-09-09 15:17:01"
+            "time": "2016-10-15 10:54:20"
         },
         {
             "name": "rhubarbphp/scaffold-authentication",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Scaffold.Authentication.git",
@@ -654,21 +656,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Scaffold.AuthenticationWithRoles.git",
-                "reference": "e4fa4e89c1fe26be061ae94211dfa56e754eb085"
+                "reference": "ecacb7649cac0bbfd4e10d7abd4ef9b34b256656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.AuthenticationWithRoles/zipball/e4fa4e89c1fe26be061ae94211dfa56e754eb085",
-                "reference": "e4fa4e89c1fe26be061ae94211dfa56e754eb085",
+                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.AuthenticationWithRoles/zipball/ecacb7649cac0bbfd4e10d7abd4ef9b34b256656",
+                "reference": "ecacb7649cac0bbfd4e10d7abd4ef9b34b256656",
                 "shasum": ""
             },
             "require": {
+                "rhubarbphp/custard": "^1.0",
                 "rhubarbphp/module-stem": "^1.2",
                 "rhubarbphp/rhubarb": "^1.1",
-                "rhubarbphp/scaffold-authentication": "^1.0"
+                "rhubarbphp/scaffold-authentication": ">0.99"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.*"
+                "codeception/codeception": "2.1.*"
             },
             "type": "library",
             "autoload": {
@@ -689,150 +692,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-08-11 10:07:22"
-        },
-        {
-            "name": "rhubarbphp/scaffold-background-tasks",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RhubarbPHP/Scaffold.BackgroundTasks.git",
-                "reference": "e8c6b9ec8f3561223cded580f0277a0b47ff666b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.BackgroundTasks/zipball/e8c6b9ec8f3561223cded580f0277a0b47ff666b",
-                "reference": "e8c6b9ec8f3561223cded580f0277a0b47ff666b",
-                "shasum": ""
-            },
-            "require": {
-                "rhubarbphp/module-leaf": "*",
-                "rhubarbphp/module-stem": "^1.1.0",
-                "rhubarbphp/rhubarb": "^1.1.0"
-            },
-            "require-dev": {
-                "codeception/codeception": "^2.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Rhubarb\\Scaffolds\\BackgroundTasks\\": "src/",
-                    "Rhubarb\\Scaffolds\\BackgroundTasks\\Tests\\": "tests/unit/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Provides a background task processing module.",
-            "homepage": "http://www.rhubarbphp.com/",
-            "keywords": [
-                "background",
-                "framework",
-                "php",
-                "rhubarb",
-                "task"
-            ],
-            "time": "2016-09-15 08:40:30"
-        },
-        {
-            "name": "rhubarbphp/scaffold-communications",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RhubarbPHP/Scaffold.Communications.git",
-                "reference": "9d87e341de122e821f1656f66281769eccbaef05"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.Communications/zipball/9d87e341de122e821f1656f66281769eccbaef05",
-                "reference": "9d87e341de122e821f1656f66281769eccbaef05",
-                "shasum": ""
-            },
-            "require": {
-                "rhubarbphp/module-stem": "*",
-                "rhubarbphp/rhubarb": "*",
-                "rhubarbphp/scaffold-background-tasks": "*"
-            },
-            "require-dev": {
-                "codeception/codeception": "2.1.4",
-                "phpmd/phpmd": "*",
-                "rhubarbphp/custard": ">1.0",
-                "rhubarbphp/module-build-status-updater": "dev-debug as 1.0.3",
-                "sebastian/phpcpd": "*",
-                "squizlabs/php_codesniffer": "*",
-                "tan-tan-kanarek/github-php-client": "dev-master as 1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Rhubarb\\Scaffolds\\Communications\\": "src/",
-                    "Rhubarb\\Scaffolds\\Communications\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Provides a basic layer for handling communications",
-            "homepage": "http://www.rhubarbphp.com/",
-            "keywords": [
-                "communications",
-                "email",
-                "orders",
-                "php",
-                "rhubarb"
-            ],
-            "time": "2016-08-09 15:11:53"
-        },
-        {
-            "name": "rhubarbphp/scaffold-navigation-menu",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RhubarbPHP/Scaffold.NavigationMenu.git",
-                "reference": "37323ae02289eedbbb3889749f128dc3f95fbd06"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.NavigationMenu/zipball/37323ae02289eedbbb3889749f128dc3f95fbd06",
-                "reference": "37323ae02289eedbbb3889749f128dc3f95fbd06",
-                "shasum": ""
-            },
-            "require": {
-                "rhubarbphp/module-leaf": "^1.0.0@dev",
-                "rhubarbphp/module-stem": "^1.0.0",
-                "rhubarbphp/rhubarb": "^1.1.0"
-            },
-            "require-dev": {
-                "codeception/codeception": "^2.1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Rhubarb\\Scaffolds\\NavigationMenu\\": "src/",
-                    "Rhubarb\\Scaffolds\\NavigationMenu\\Tests\\": "tests/unit/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Provides a model to store a tree of menu items and various presenters for using these as navigation",
-            "homepage": "http://www.rhubarbphp.com/",
-            "keywords": [
-                "framework",
-                "menu",
-                "navigation",
-                "php",
-                "rhubarb"
-            ],
-            "time": "2016-08-15 16:05:38"
+            "time": "2016-10-14 16:26:52"
         },
         {
             "name": "rhubarbphp/scaffold-repository-log",
@@ -840,17 +700,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Scaffold.RepositoryLog.git",
-                "reference": "cf194076d515dbd2486e1e30b2478c1e5941dd85"
+                "reference": "7e54f6a1553d3baff7c2fd58c97e022ad1c2c8d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.RepositoryLog/zipball/cf194076d515dbd2486e1e30b2478c1e5941dd85",
-                "reference": "cf194076d515dbd2486e1e30b2478c1e5941dd85",
+                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.RepositoryLog/zipball/7e54f6a1553d3baff7c2fd58c97e022ad1c2c8d3",
+                "reference": "7e54f6a1553d3baff7c2fd58c97e022ad1c2c8d3",
                 "shasum": ""
             },
             "require": {
                 "rhubarbphp/module-stem": "*",
-                "rhubarbphp/rhubarb": "*"
+                "rhubarbphp/rhubarb": ">1.0"
             },
             "type": "library",
             "autoload": {
@@ -874,15 +734,36 @@
                 "repository",
                 "rhubarb"
             ],
-            "time": "2016-08-09 15:54:33"
+            "time": "2016-10-17 10:27:45"
         },
         {
-            "name": "rojr/SuperCMS",
-            "version": "master",
+            "name": "rojr/super-cms",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:rojr/SuperCMS.git",
-                "reference": "master"
+                "url": "https://github.com/rojr/SuperCMS.git",
+                "reference": "651ee146e29decb536e3a54ee07861c412b959d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/651ee146e29decb536e3a54ee07861c412b959d2",
+                "reference": "651ee146e29decb536e3a54ee07861c412b959d2",
+                "shasum": ""
+            },
+            "require": {
+                "rhubarbphp/module-leaf": "*",
+                "rhubarbphp/module-leaf-common-controls": "1.0.9",
+                "rhubarbphp/module-leaf-crud": "^1.0.0",
+                "rhubarbphp/module-leaf-search-panel": "1.0.0",
+                "rhubarbphp/module-leaf-table": "*",
+                "rhubarbphp/module-leaf-tabs": "^1.0.0",
+                "rhubarbphp/module-patterns": "dev-develop",
+                "rhubarbphp/module-stem": "*",
+                "rhubarbphp/rhubarb": "^1.1.9",
+                "rhubarbphp/scaffold-authentication": "dev-master",
+                "rhubarbphp/scaffold-authentication-with-roles": "*",
+                "rhubarbphp/scaffold-repository-log": "dev-master",
+                "twbs/bootstrap": "^3.3"
             },
             "type": "library",
             "autoload": {
@@ -890,7 +771,11 @@
                     "SuperCMS\\": "src/"
                 }
             },
-            "time": "2016-09-30 21:39:09"
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "time": "2016-10-19 11:30:40"
         },
         {
             "name": "symfony/console",
@@ -898,12 +783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "03d010b5b2242ce065ffb0f3f15a218f8137eb4c"
+                "reference": "e12930d96cc0c15fd1de61d14a037c707baa901f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/03d010b5b2242ce065ffb0f3f15a218f8137eb4c",
-                "reference": "03d010b5b2242ce065ffb0f3f15a218f8137eb4c",
+                "url": "https://api.github.com/repos/symfony/console/zipball/e12930d96cc0c15fd1de61d14a037c707baa901f",
+                "reference": "e12930d96cc0c15fd1de61d14a037c707baa901f",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +838,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-28 00:11:20"
+            "time": "2016-10-06 08:59:27"
         },
         {
             "name": "symfony/debug",
@@ -961,12 +846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "767b64d3c3346136403a39fe5bfc037e1a85bee7"
+                "reference": "61de4883414e3a640ffac1798d411a37dc71bc20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/767b64d3c3346136403a39fe5bfc037e1a85bee7",
-                "reference": "767b64d3c3346136403a39fe5bfc037e1a85bee7",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/61de4883414e3a640ffac1798d411a37dc71bc20",
+                "reference": "61de4883414e3a640ffac1798d411a37dc71bc20",
                 "shasum": ""
             },
             "require": {
@@ -1010,7 +895,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-16 13:37:46"
+            "time": "2016-09-30 10:45:11"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1124,30 +1009,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "1.0.x-dev",
-            "alias_normalized": "1.0.9999999.9999999-dev",
-            "version": "9999999-dev",
-            "package": "rhubarbphp/module-leaf-common-controls"
-        },
-        {
-            "alias": "1.1.3",
-            "alias_normalized": "1.1.3.0",
-            "version": "9999999-dev",
-            "package": "rhubarbphp/rhubarb"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "rhubarbphp/scaffold-authentication-with-roles": 20,
-        "rhubarbphp/scaffold-navigation-menu": 20,
-        "rhubarbphp/module-patterns": 20,
-        "rhubarbphp/module-leaf-common-controls": 20,
-        "rhubarbphp/module-leaf-table": 20,
-        "rhubarbphp/rhubarb": 20,
-        "rhubarbphp/scaffold-repository-log": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
