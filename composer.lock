@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "58a61ca159f19a8f69280f1f16dd006b565d5f85"
+                "reference": "1a1386c46da87082d0f07179e8934986f46fa903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/58a61ca159f19a8f69280f1f16dd006b565d5f85",
-                "reference": "58a61ca159f19a8f69280f1f16dd006b565d5f85",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/1a1386c46da87082d0f07179e8934986f46fa903",
+                "reference": "1a1386c46da87082d0f07179e8934986f46fa903",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-10-19 16:18:28"
+            "time": "2016-10-19 22:39:29"
         },
         {
             "name": "symfony/console",
