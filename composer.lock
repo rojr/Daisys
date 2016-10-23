@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21e58f4aae806fce58c6cc8dee3ef607",
+    "hash": "0ffc726499f0badf017fab63b9cebd86",
     "content-hash": "eba5c01d58d02244945a8021468c0db4",
     "packages": [
         {
@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "1a1386c46da87082d0f07179e8934986f46fa903"
+                "reference": "81bb10c7c961b5ee217de56097c19aa3e1bc6216"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/1a1386c46da87082d0f07179e8934986f46fa903",
-                "reference": "1a1386c46da87082d0f07179e8934986f46fa903",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/81bb10c7c961b5ee217de56097c19aa3e1bc6216",
+                "reference": "81bb10c7c961b5ee217de56097c19aa3e1bc6216",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-10-19 22:39:29"
+            "time": "2016-10-20 23:00:25"
         },
         {
             "name": "symfony/console",
@@ -787,7 +787,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e12930d96cc0c15fd1de61d14a037c707baa901f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/72fafa731ed6dcfdeadc60ed92922e8d6ff451b5",
                 "reference": "e12930d96cc0c15fd1de61d14a037c707baa901f",
                 "shasum": ""
             },

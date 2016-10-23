@@ -35,13 +35,7 @@ class SearchView extends View
         ?>
 
         <div class="row search-group">
-            <div class="col-sm-2">
-                <div class="search-categories">
-                    <p>Categories <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-                    <div class="category-list"></div>
-                </div>
-            </div>
-            <div class="col-sm-8 search-input">
+            <div class="col-sm-10 search-input">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <?= $this->leaves['Query']; ?>
                 <ul class="search-response"></ul>

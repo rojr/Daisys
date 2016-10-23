@@ -24,20 +24,8 @@ bridge.prototype.attachEvents = function () {
         return false;
     };
 
-    categoryDropdown.onclick = function(event) {
-
-        if (this.classList.contains('open')) {
-            this.classList.remove('open');
-        } else {
-            this.classList.add('open');
-        }
-        event.stopPropagation();
-        return false;
-    };
-
     document.onclick = function() {
         document.querySelector('.search-response').style.display = 'none';
-        categoryDropdown.classList.remove('open');
     };
 };
 
@@ -45,7 +33,7 @@ bridge.prototype.queryProducts = function(query) {
     this.raiseServerEvent('search', query, function(products){
         var text = '';
         for (var i = 0; i < products.length; i++) {
-            text += '<a href="' + products[i].Href + '"><li>' + products[i].Name  + '</li>' + '</a>'    ;
+            text += '<a href="' + products[i].Href + '"><li>' + products[i].Name  + '</li>' + '</a>';
         }
         document.querySelector('.search-response').innerHTML = text;
     });
