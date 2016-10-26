@@ -35,12 +35,12 @@ class SearchView extends View
         ?>
 
         <div class="row search-group">
-            <div class="col-sm-10 search-input">
+            <div class="col-sm-11 search-input">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <?= $this->leaves['Query']; ?>
                 <ul class="search-response"></ul>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-1">
                 <?= $this->leaves['Search']; ?>
             </div>
         </div>

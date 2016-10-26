@@ -2,6 +2,7 @@
 
 namespace Daisys;
 
+use Daisys\Layouts\DaisysLayout;
 use Daisys\Leaves\DaisyIndexView;
 use Daisys\Leaves\ProductSearch\ProductSearchLeaf;
 use Daisys\Leaves\Views\ProductView;
@@ -11,13 +12,11 @@ use Rhubarb\Crown\Encryption\Sha512HashProvider;
 use Rhubarb\Crown\Html\ResourceLoader;
 use Rhubarb\Crown\Layout\LayoutModule;
 use Rhubarb\Crown\UrlHandlers\ClassMappedUrlHandler;
-use Rhubarb\Leaf\LeafModule;
+use Rhubarb\Leaf\LayoutProviders\LayoutProvider;
 use Rhubarb\Stem\Custard\SeedDemoDataCommand;
 use Rhubarb\Stem\Repositories\MySql\MySql;
 use Rhubarb\Stem\Repositories\Repository;
-use Rhubarb\Stem\StemModule;
 use SuperCMS\Custard\ApplicationDemoDataSeeder;
-use SuperCMS\Layouts\DefaultLayout;
 use SuperCMS\Leaves\IndexView;
 use SuperCMS\Leaves\Site\Product\ProductItemView;
 use SuperCMS\SuperCMS;
@@ -41,6 +40,8 @@ class DaisysApplication extends Application
 
         HashProvider::setProviderClassName(Sha512HashProvider::class);
 
+        LayoutModule::setLayoutClassName(DaisysLayout::class);
+
         $this->container()->registerClass(IndexView::class, DaisyIndexView::class);
         $this->container()->registerClass(ProductItemView::class, ProductView::class);
     }
@@ -49,9 +50,6 @@ class DaisysApplication extends Application
     {
         return [
             new SuperCMS($this->container()),
-            new LayoutModule(DefaultLayout::class),
-            new StemModule(),
-            new LeafModule(),
         ];
     }
 
