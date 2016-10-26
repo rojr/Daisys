@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "81bb10c7c961b5ee217de56097c19aa3e1bc6216"
+                "reference": "8f62139d4c550451229bb7bef47caf7126b3257b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/81bb10c7c961b5ee217de56097c19aa3e1bc6216",
-                "reference": "81bb10c7c961b5ee217de56097c19aa3e1bc6216",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/8f62139d4c550451229bb7bef47caf7126b3257b",
+                "reference": "8f62139d4c550451229bb7bef47caf7126b3257b",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-10-20 23:00:25"
+            "time": "2016-10-26 22:23:27"
         },
         {
             "name": "symfony/console",
@@ -850,7 +850,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/61de4883414e3a640ffac1798d411a37dc71bc20",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/e6688db8d93472b5fce48b05fadf566a2520da5e",
                 "reference": "61de4883414e3a640ffac1798d411a37dc71bc20",
                 "shasum": ""
             },
