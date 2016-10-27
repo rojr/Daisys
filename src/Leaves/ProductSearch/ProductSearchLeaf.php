@@ -24,7 +24,6 @@ class ProductSearchLeaf extends Leaf
             new AnyWordsGroup(['Name'], $session->searchQuery)
         ));
 
-
         return $model;
     }
 }

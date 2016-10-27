@@ -17,8 +17,9 @@ class DaisyIndexView extends DaisyDefaultView
 
         $carousel->setCarouselImages(
             [
-                'https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Body_Shop_in_the_Prudential_Center,_Boston_MA.jpg',
-                'https://a2ua.com/shop/shop-010.jpg'
+                'https://img.ctrlcube.com/edc60b95/95e8fa24d35b7163255712fd72cc74a7934f919b.jpg',
+                'https://img.ctrlcube.com/edc60b95/f196be13621125762ce9e267998b74a07f76f617.jpg',
+                'https://img.ctrlcube.com/edc60b95/e8c9d4c089e51c83c15fc93e595de3654f31fe5e.jpg',
             ]
         );
     }

@@ -358,6 +358,11 @@ body {
 
 .c-supertop a:hover {
     text-decoration: none;
+    -webkit-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    -moz-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    -ms-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    -o-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    transition: color 0.4s, border 0.4s, background-color 0.4s;
 }
 
 #c-global-basket {
@@ -372,6 +377,11 @@ body {
     padding-right: 8px;
     border-radius: 90px;
     border:1px solid white;
+    -webkit-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    -moz-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    -ms-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    -o-transition: color 0.4s, border 0.4s, background-color 0.4s;
+    transition: color 0.4s, border 0.4s, background-color 0.4s;
 }
 
 #c-global-basket:hover .c-basket-count {

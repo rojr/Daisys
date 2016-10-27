@@ -11,9 +11,9 @@ class DaisysLayout extends DefaultLayout
         ?>
         <div class="c-menu-items">
             <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-            <a href="/"><i class="fa fa-home" aria-hidden="true"></i> About us</a>
-            <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Latest news</a>
-            <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Contact us</a>
+            <a href="/"><i class="fa fa-info-circle" aria-hidden="true"></i> About us</a>
+            <a href="/"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Latest news</a>
+            <a href="/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Contact us</a>
         </div>
         <?php
     }
