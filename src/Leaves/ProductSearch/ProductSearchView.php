@@ -43,14 +43,14 @@ class ProductSearchView extends DaisyDefaultView
     {
         print <<<HTML
         <div class="search-product row marginless">
-            <div class="col-xs-3 product-image">
+            <div class="col-sm-3 product-image">
                 <img src="{$product->getDefaultImage()}">
             </div>
-            <div class="col-xs-6 product-description">
+            <div class="col-sm-6 product-description">
                 <p class="product-title">{$product->Name}</p>
-                <p>{$product->Description}</p>
+                <p class="c-description">{$product->Description}</p>
             </div>
-            <div class="col-xs-3 product-price">
+            <div class="col-sm-3 product-price">
                 <div class="pull-right">
                     <p class="product-cost pull-right">&pound{$product->getDefaultProductVariation()->Price}</p>
                     <a href="{$product->getPublicUrl()}" class="button pull-right">View</a>

@@ -32,31 +32,31 @@ class DaisyIndexView extends DaisyDefaultView
         print '</div>';
         print <<<HTML
         <div class="row promotional-row">
-            <div class="col-xs-6">
+            <div class="col-sm-6">
                 <div class="promotional-content">
                 a
                 </div>
             </div>
-            <div class="col-xs-6">
+            <div class="col-sm-6">
                 <div class="promotional-content">
                 b
                 </div>
             </div>
         </div>
         <div class="row promotional-row">
-            <div class="col-xs-4">
+            <div class="col-sm-4">
                 <div class="promotional-content">
                 a
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-sm-4">
                 <a href="https://www.facebook.com/profile.php?id=100013456516170">
                     <div class="promotional-content" id="facebook-link">
                         <img src="/static/images/fblogo.png"/>
                     </div>
                 </a>
             </div>
-            <div class="col-xs-4">
+            <div class="col-sm-4">
                 <div class="promotional-content">
                 c
                 </div>

@@ -5,6 +5,7 @@ namespace Daisys;
 use Daisys\Layouts\DaisysLayout;
 use Daisys\Leaves\DaisyIndexView;
 use Daisys\Leaves\ProductSearch\ProductSearchLeaf;
+use Daisys\Leaves\Views\DaisysBasketPageView;
 use Daisys\Leaves\Views\ProductView;
 use Rhubarb\Crown\Application;
 use Rhubarb\Crown\Encryption\HashProvider;
@@ -12,12 +13,12 @@ use Rhubarb\Crown\Encryption\Sha512HashProvider;
 use Rhubarb\Crown\Html\ResourceLoader;
 use Rhubarb\Crown\Layout\LayoutModule;
 use Rhubarb\Crown\UrlHandlers\ClassMappedUrlHandler;
-use Rhubarb\Leaf\LayoutProviders\LayoutProvider;
 use Rhubarb\Stem\Custard\SeedDemoDataCommand;
 use Rhubarb\Stem\Repositories\MySql\MySql;
 use Rhubarb\Stem\Repositories\Repository;
 use SuperCMS\Custard\ApplicationDemoDataSeeder;
 use SuperCMS\Leaves\IndexView;
+use SuperCMS\Leaves\Site\Basket\BasketPageView;
 use SuperCMS\Leaves\Site\Product\ProductItemView;
 use SuperCMS\SuperCMS;
 
@@ -35,7 +36,6 @@ class DaisysApplication extends Application
 
         Repository::setDefaultRepositoryClassName(MySql::class);
 
-        //SolutionSchema::registerSchema('HackTheHubSchema', HackTheHubSolutionSchema::class);
         ResourceLoader::loadResource('/static/css/daisy.css');
 
         HashProvider::setProviderClassName(Sha512HashProvider::class);
@@ -44,6 +44,7 @@ class DaisysApplication extends Application
 
         $this->container()->registerClass(IndexView::class, DaisyIndexView::class);
         $this->container()->registerClass(ProductItemView::class, ProductView::class);
+        $this->container()->registerClass(BasketPageView::class, DaisysBasketPageView::class);
     }
 
     protected function getModules()
