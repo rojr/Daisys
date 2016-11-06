@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "4e3cbd1c89ad9f96535aa60d4360704676b2b9b5"
+                "reference": "a06c1bf26b43c1442e08de286c2af43735b6c97c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/4e3cbd1c89ad9f96535aa60d4360704676b2b9b5",
-                "reference": "4e3cbd1c89ad9f96535aa60d4360704676b2b9b5",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/a06c1bf26b43c1442e08de286c2af43735b6c97c",
+                "reference": "a06c1bf26b43c1442e08de286c2af43735b6c97c",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-03 23:38:45"
+            "time": "2016-11-06 20:14:09"
         },
         {
             "name": "symfony/console",
@@ -783,12 +783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "bc5dc702127c852a738d6e4f0d3eb458152102c6"
+                "reference": "5934ab27e27ea66a57c1879e397299221b7f53e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/bc5dc702127c852a738d6e4f0d3eb458152102c6",
-                "reference": "bc5dc702127c852a738d6e4f0d3eb458152102c6",
+                "url": "https://api.github.com/repos/symfony/console/zipball/5934ab27e27ea66a57c1879e397299221b7f53e9",
+                "reference": "5934ab27e27ea66a57c1879e397299221b7f53e9",
                 "shasum": ""
             },
             "require": {
@@ -838,7 +838,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:11:03"
+            "time": "2016-11-06 16:27:54"
         },
         {
             "name": "symfony/debug",

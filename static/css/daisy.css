@@ -232,6 +232,10 @@ body {
     max-height: 200px;
 }
 
+.basket-product .product-image {
+    max-height: 120px;
+}
+
 .search-product img {
     height: 100%;
     max-width: 100%;
@@ -397,4 +401,34 @@ body {
 
 .c-menu-items a {
     margin-right:8px;
+}
+
+.c-basket-outer {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.c-basket-outer > div{
+    padding:0;
+}
+
+.c-basket-summary {
+    padding-top: 7.5px!important;
+    padding-left: 7.5px!important;
+}
+
+.c-basket-summary--inner {
+    background-color: #fff3fc;
+    border: 1px solid #ffc3ee;
+    padding: 7.5px;
+}
+
+.c-basket-summary--inner h3 {
+    margin-top: 0;
+    font-weight:bold;
+    padding-bottom:7.5px;
+    border-bottom:1px solid #979797;
+}
+
+.c-basket-total {
+    font-weight:bold;
 }

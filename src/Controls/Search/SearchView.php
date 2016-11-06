@@ -2,13 +2,13 @@
 
 namespace Daisys\Controls\Search;
 
-use Daisys\Session\DaisySession;
 use Rhubarb\Crown\Exceptions\ForceResponseException;
 use Rhubarb\Crown\Response\RedirectResponse;
 use Rhubarb\Leaf\Controls\Common\Buttons\Button;
 use Rhubarb\Leaf\Controls\Common\Text\TextBox;
 use Rhubarb\Leaf\Leaves\LeafDeploymentPackage;
 use Rhubarb\Leaf\Views\View;
+use SuperCMS\Session\SuperCMSSession;
 
 class SearchView extends View
 {
@@ -17,7 +17,7 @@ class SearchView extends View
         $this->registerSubLeaf(
             $input = new TextBox('Query'),
             $submit = new Button('Search', 'Search', function() {
-                $session = DaisySession::singleton();
+                $session = SuperCMSSession::singleton();
                 $session->searchQuery = $this->model->Query;
                 $session->storeSession();
                 throw new ForceResponseException(new RedirectResponse('/search/'));

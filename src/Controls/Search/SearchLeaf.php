@@ -2,12 +2,12 @@
 
 namespace Daisys\Controls\Search;
 
-use Daisys\Session\DaisySession;
 use Rhubarb\Leaf\Leaves\Leaf;
 use Rhubarb\Stem\Filters\AndGroup;
 use Rhubarb\Stem\Filters\Contains;
 use Rhubarb\Stem\Filters\Equals;
 use SuperCMS\Models\Product\Product;
+use SuperCMS\Session\SuperCMSSession;
 
 class SearchLeaf extends Leaf
 {
@@ -20,7 +20,7 @@ class SearchLeaf extends Leaf
     {
         $model = new SearchModel();
 
-        $session = DaisySession::singleton();
+        $session = SuperCMSSession::singleton();
         $model->Query = $session->searchQuery;
 
         $model->searchEvent->attachHandler(function($query) {
