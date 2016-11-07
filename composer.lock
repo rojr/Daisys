@@ -391,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Leaf.Table.git",
-                "reference": "c181a3cd5d2bb73dc12eb2ca8387f019701b374f"
+                "reference": "8c5d168c0cf5af41fb2817ae20935d04a88e49a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.Table/zipball/c181a3cd5d2bb73dc12eb2ca8387f019701b374f",
-                "reference": "c181a3cd5d2bb73dc12eb2ca8387f019701b374f",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.Table/zipball/8c5d168c0cf5af41fb2817ae20935d04a88e49a4",
+                "reference": "8c5d168c0cf5af41fb2817ae20935d04a88e49a4",
                 "shasum": ""
             },
             "require": {
@@ -424,7 +424,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-10-11 09:45:51"
+            "time": "2016-11-07 10:35:01"
         },
         {
             "name": "rhubarbphp/module-leaf-tabs",
@@ -561,16 +561,16 @@
         },
         {
             "name": "rhubarbphp/rhubarb",
-            "version": "1.1.15",
+            "version": "1.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Rhubarb.git",
-                "reference": "aee39187dbf7148e21bef3cdcd23d4dbc927ccc2"
+                "reference": "26959d9c9bec643c916f4e26d8381ee5497bf8fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/aee39187dbf7148e21bef3cdcd23d4dbc927ccc2",
-                "reference": "aee39187dbf7148e21bef3cdcd23d4dbc927ccc2",
+                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/26959d9c9bec643c916f4e26d8381ee5497bf8fc",
+                "reference": "26959d9c9bec643c916f4e26d8381ee5497bf8fc",
                 "shasum": ""
             },
             "require": {
@@ -604,7 +604,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2016-10-27 16:23:16"
+            "time": "2016-11-07 16:18:28"
         },
         {
             "name": "rhubarbphp/scaffold-authentication",
@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "a06c1bf26b43c1442e08de286c2af43735b6c97c"
+                "reference": "ec932ff833103d8ee25d6d8c0118e04879472002"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/a06c1bf26b43c1442e08de286c2af43735b6c97c",
-                "reference": "a06c1bf26b43c1442e08de286c2af43735b6c97c",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/ec932ff833103d8ee25d6d8c0118e04879472002",
+                "reference": "ec932ff833103d8ee25d6d8c0118e04879472002",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-06 20:14:09"
+            "time": "2016-11-07 23:28:13"
         },
         {
             "name": "symfony/console",

@@ -1,13 +1,29 @@
 @import 'https://fonts.googleapis.com/css?family=Quicksand';
 @import 'https://fonts.googleapis.com/css?family=Lato';
 
-body, p, h1, h2, h3, h4, h5, span, b, i, a {
-    font-family: 'Quicksand', sans-serif;
+body, h1, h2, h3, h4, h5, span, b, p, a {
+    font-family: 'Quicksand', sans-serif!important;
 }
 
 body {
     -webkit-background-size: auto!important;
     background-size: auto!important;
+}
+
+.body .content {
+    background-color: #ffffff;
+    -webkit-box-shadow: 10px 10px 22px -9px rgba(158,158,158,1);
+    -moz-box-shadow: 10px 10px 22px -9px rgba(158,158,158,1);
+    box-shadow: 10px 10px 22px -9px rgba(158,158,158,1);
+}
+
+body .body #top-banner
+{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 14px;
 }
 
 .search-group div {
@@ -70,34 +86,65 @@ body {
     background-color: #ffc3ee;
 }
 
-.search-button {
-    margin: 2px 2px 2px 2px;
-    width: 98%;
-    height: 34px;
+.button {
+    min-width: 120px;
     text-align: center;
     font-size: large;
     font-weight: bold;
     color: #fff;
-    background-color: #ffc3ee;
+    background-color: #ffd5ec;
     outline: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    padding-top: 4px;
-    border: 2px dashed white;
-    box-shadow: 0 0 0 2px #ffc3ee;
+    border: 1px solid #ffc3ee;
     -webkit-transition: background-color 0.4s, box-shadow 0.4s;
     -moz-transition: background-color 0.4s, box-shadow 0.4s;
     -ms-transition: background-color 0.4s, box-shadow 0.4s;
     -o-transition: background-color 0.4s, box-shadow 0.4s;
     transition: background-color 0.4s, box-shadow 0.4s;
+    position: relative;
+    display: -moz-inline-box;
+    /* everybody else */
+    display: inline-block;
+
+    vertical-align: middle;
 }
 
-.search-button:hover {
+.button:hover {
     text-decoration: none;
     color: #fff;
-    background-color: #ff7fb8;
-    box-shadow: 0 0 0 2px #ff7fb8;
+    background-color: #ffc3ee;
+}
 
+.button:active
+{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.33);
+}
+
+.search-button {
+    width:100%;
+    height: 38px;
+
+    overflow: hidden;
+}
+
+.search-button i {
+    position: absolute;
+    right: -100px;
+    top:11px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    transition: all 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.search-button:hover i {
+    right: 20px;
 }
 
 .search-categories {
@@ -159,42 +206,37 @@ body {
     max-height: 300px;
 }
 
+.c-page-promotional {
+    padding-bottom:7.5px;
+}
+
+.promotional-content {
+    margin-top:7.5px;
+    position: relative;
+    cursor: pointer;
+}
+
 .promotional-row {
-    height: 250px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-right: 0!important;
+    margin-left: 0!important;
 }
 
-.promotional-row .col-sm-6 {
-    padding-left: 7.5px;
-    padding-right: 7.5px;
+.promotional-row > div {
+    padding-left:3.75px;
+    padding-right:3.75px;
 }
 
-.promotional-row .col-sm-4 {
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-}
-
-.promotional-row .col-sm-6:first-child {
+.promotional-row > div:first-child {
     padding-left: 0;
 }
 
-.promotional-row .col-sm-6:last-child {
-    padding-right: 0;
-}
-
-.promotional-row .col-sm-4:first-child {
-    padding-left: 0;
-}
-
-.promotional-row .col-sm-4:last-child {
+.promotional-row > div:last-child {
     padding-right: 0;
 }
 
 .promotional-row .promotional-content {
-    background-color: #ffc3ee;
-    height: 100%;
+    border: 1px solid #ffc3ee;
+    height: 250px;
 }
 
 #facebook-link {
@@ -230,6 +272,7 @@ body {
     padding: 0;
     min-height: 5vw;
     max-height: 200px;
+    overflow: hidden;
 }
 
 .basket-product .product-image {
@@ -238,42 +281,13 @@ body {
 
 .search-product img {
     height: 100%;
+    max-height:100%;
     max-width: 100%;
 }
 
 .marginless {
     margin-left: 0!important;
     margin-right: 0!important;
-}
-
-.button {
-    width: 140px;
-    height: 38px;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    color: #fff;
-    background-color: #ffc3ee;
-    outline: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    padding-top: 4px;
-    border: 2px dashed white;
-    box-shadow: 0 0 0 2px #ffc3ee;
-    -webkit-transition: background-color 0.4s, box-shadow 0.4s;
-    -moz-transition: background-color 0.4s, box-shadow 0.4s;
-    -ms-transition: background-color 0.4s, box-shadow 0.4s;
-    -o-transition: background-color 0.4s, box-shadow 0.4s;
-    transition: background-color 0.4s, box-shadow 0.4s;
-
-}
-
-.button:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: #ff7fb8;
-    box-shadow: 0 0 0 2px #ff7fb8;
-
 }
 
 .product-title {
@@ -431,4 +445,113 @@ body {
 
 .c-basket-total {
     font-weight:bold;
+}
+
+.product-price > div  {
+    text-align: right;
+}
+
+.c-product-action-element {
+    margin-top:7.5px;
+}
+
+.c-promotional-image {
+    width:100%;
+    height:100%;
+    -webkit-background-size:cover;
+    background-size:cover;
+    position: relative;
+    opacity:0.4;
+
+}
+
+.c-promotional-image::after {
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    opacity:0.5;
+    content: '';
+}
+
+#c-image-wool {
+    background-image: url('/static/images/promo/wool.jpg');
+}
+
+#c-image-pattern {
+    background-image: url('/static/images/promo/pattern.jpg');
+}
+
+#c-image-jewellery {
+    background-image: url('/static/images/promo/jewellery.jpg');
+}
+
+#c-image-seasonal {
+    background-image: url('/static/images/promo/seasonal.jpg');
+}
+
+#c-image-wool::after {
+    background-color: #e4f9c9;
+}
+
+#c-image-pattern::after {
+    background-color: #9f87ff;
+}
+
+#c-image-jewellery:after {
+    background-color: #9f87ff;
+}
+
+#c-image-seasonal:after {
+    background-color: #e4f9c9;
+}
+
+.c-promotional-text {
+    position: absolute;
+    top:20%;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:0 20px 20px 20px;
+
+}
+
+.c-promotional-text h3 {
+    font-size:5rem;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
+    font-weight:bold;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.search-controls {
+    margin-top:7.5px;
+}
+
+@media screen and (max-width: 991px) {
+    .row {
+        margin: 0!important;
+    }
+
+    .col-md-10 {
+        padding:7.5px!important;
+    }
+
+    .body .content {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .alert-outer {
+        width: 80%!important;
+        left: 10%!important;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .promotional-row > div {
+        padding:0px!important;
+    }
 }

@@ -3,6 +3,7 @@
 namespace Daisys\Leaves;
 
 use Daisys\Views\DaisyDefaultView;
+use Rhubarb\Crown\Settings\HtmlPageSettings;
 use SuperCMS\Controls\Carousel\Carousel;
 
 class DaisyIndexView extends DaisyDefaultView
@@ -22,46 +23,69 @@ class DaisyIndexView extends DaisyDefaultView
                 'https://img.ctrlcube.com/edc60b95/e8c9d4c089e51c83c15fc93e595de3654f31fe5e.jpg',
             ]
         );
+
+        $pageSettings = HtmlPageSettings::singleton();
+        $pageSettings->pageTitle = 'Daisys Newry';
     }
 
     protected function printViewContent()
     {
         parent::printViewContent();
-        print '<div id="main-page-slider">';
-        print $this->leaves[ 'Carousel' ];
-        print '</div>';
         print <<<HTML
-        <div class="row promotional-row">
-            <div class="col-sm-6">
-                <div class="promotional-content">
-                a
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="promotional-content">
-                b
-                </div>
-            </div>
-        </div>
-        <div class="row promotional-row">
-            <div class="col-sm-4">
-                <div class="promotional-content">
-                a
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <a href="https://www.facebook.com/profile.php?id=100013456516170">
-                    <div class="promotional-content" id="facebook-link">
-                        <img src="/static/images/fblogo.png"/>
+        <div class="c-page-promotional">
+            <div class="row promotional-row">
+                <div class="col-sm-6">
+                    <div class="promotional-content">
+                        <a href="/category/thread/">
+                            <div class="c-promotional-image" id="c-image-wool"></div>
+                            <div class="c-promotional-text">
+                                <h3>Explore our wool offers</h3>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="promotional-content">
+                        <a href="/category/mens/">
+                            <div class="c-promotional-image" id="c-image-pattern"></div>
+                            <div class="c-promotional-text">
+                                <h3>New Patterns every week</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <div class="promotional-content">
-                c
+            <div class="row promotional-row">
+                <div class="col-sm-4">
+                    <div class="promotional-content">
+                        <a href="/category/jewellery/">
+                            <div class="c-promotional-image" id="c-image-jewellery"></div>
+                            <div class="c-promotional-text">
+                                <h3>View our Jewellery</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.facebook.com/profile.php?id=100013456516170">
+                        <div class="promotional-content" id="facebook-link">
+                            <img src="/static/images/fblogo.png"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="promotional-content">
+                        <a href="/category/Christmas-Special-Occasions/">
+                            <div class="c-promotional-image" id="c-image-seasonal"></div>
+                            <div class="c-promotional-text">
+                                <h3>Seasonal items</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+        
 HTML;
     }
 }

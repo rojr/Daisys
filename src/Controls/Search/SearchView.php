@@ -8,6 +8,7 @@ use Rhubarb\Leaf\Controls\Common\Buttons\Button;
 use Rhubarb\Leaf\Controls\Common\Text\TextBox;
 use Rhubarb\Leaf\Leaves\LeafDeploymentPackage;
 use Rhubarb\Leaf\Views\View;
+use SuperCMS\Controls\HtmlButton\HtmlButton;
 use SuperCMS\Session\SuperCMSSession;
 
 class SearchView extends View
@@ -16,7 +17,7 @@ class SearchView extends View
     {
         $this->registerSubLeaf(
             $input = new TextBox('Query'),
-            $submit = new Button('Search', 'Search', function() {
+            $submit = new HtmlButton('Search', 'Search  <i class="fa fa-search" aria-hidden="true"></i>', function() {
                 $session = SuperCMSSession::singleton();
                 $session->searchQuery = $this->model->Query;
                 $session->storeSession();
@@ -27,7 +28,7 @@ class SearchView extends View
         $input->addHtmlAttribute('autocomplete', 'off');
 
         $input->setPlaceholderText('Search for products');
-        $submit->addCssClassNames('search-button');
+        $submit->addCssClassNames('button search-button');
     }
 
     protected function printViewContent()
@@ -35,12 +36,12 @@ class SearchView extends View
         ?>
 
         <div class="row search-group">
-            <div class="col-sm-11 search-input">
+            <div class="col-sm-10 search-input">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <?= $this->leaves['Query']; ?>
                 <ul class="search-response"></ul>
             </div>
-            <div class="col-sm-1">
+            <div class="col-sm-2">
                 <?= $this->leaves['Search']; ?>
             </div>
         </div>
