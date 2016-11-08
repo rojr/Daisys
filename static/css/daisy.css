@@ -214,6 +214,7 @@ body .body #top-banner
     margin-top:7.5px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .promotional-row {
@@ -462,7 +463,11 @@ body .body #top-banner
     background-size:cover;
     position: relative;
     opacity:0.4;
-
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .c-promotional-image::after {
@@ -473,6 +478,15 @@ body .body #top-banner
     bottom:0;
     opacity:0.5;
     content: '';
+}
+
+.promotional-content:hover .c-promotional-image {
+    opacity:0.9;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #c-image-wool {
