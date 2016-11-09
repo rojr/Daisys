@@ -608,16 +608,16 @@
         },
         {
             "name": "rhubarbphp/scaffold-authentication",
-            "version": "dev-master",
+            "version": "dev-feature/ProtectedUrls",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Scaffold.Authentication.git",
-                "reference": "bbaedf75637e24c9ac0def813ea4643330209d6e"
+                "reference": "407825e6108bd1c633b4eb49f7020d1fd76caf04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.Authentication/zipball/bbaedf75637e24c9ac0def813ea4643330209d6e",
-                "reference": "bbaedf75637e24c9ac0def813ea4643330209d6e",
+                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.Authentication/zipball/407825e6108bd1c633b4eb49f7020d1fd76caf04",
+                "reference": "407825e6108bd1c633b4eb49f7020d1fd76caf04",
                 "shasum": ""
             },
             "require": {
@@ -648,30 +648,28 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-09-14 13:33:20"
+            "time": "2016-10-12 15:24:03"
         },
         {
             "name": "rhubarbphp/scaffold-authentication-with-roles",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Scaffold.AuthenticationWithRoles.git",
-                "reference": "ecacb7649cac0bbfd4e10d7abd4ef9b34b256656"
+                "reference": "065f107d22b763b07e9c4a3c0adb4481ceb4cb3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.AuthenticationWithRoles/zipball/ecacb7649cac0bbfd4e10d7abd4ef9b34b256656",
-                "reference": "ecacb7649cac0bbfd4e10d7abd4ef9b34b256656",
+                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.AuthenticationWithRoles/zipball/065f107d22b763b07e9c4a3c0adb4481ceb4cb3a",
+                "reference": "065f107d22b763b07e9c4a3c0adb4481ceb4cb3a",
                 "shasum": ""
             },
             "require": {
-                "rhubarbphp/custard": "^1.0",
-                "rhubarbphp/module-stem": "^1.2",
-                "rhubarbphp/rhubarb": "^1.1",
-                "rhubarbphp/scaffold-authentication": ">0.99"
+                "rhubarbphp/rhubarb": "*",
+                "rhubarbphp/scaffold-authentication": "*"
             },
             "require-dev": {
-                "codeception/codeception": "2.1.*"
+                "phpunit/phpunit": "3.*"
             },
             "type": "library",
             "autoload": {
@@ -692,7 +690,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-10-14 16:26:52"
+            "time": "2015-02-23 21:27:38"
         },
         {
             "name": "rhubarbphp/scaffold-repository-log",
@@ -742,12 +740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "9e9ffee9a28c4a08fed4924e8d8704caeab4be8d"
+                "reference": "927a52eaf9f92b76ac657b92cf1ba983f6c1fb27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/9e9ffee9a28c4a08fed4924e8d8704caeab4be8d",
-                "reference": "9e9ffee9a28c4a08fed4924e8d8704caeab4be8d",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/927a52eaf9f92b76ac657b92cf1ba983f6c1fb27",
+                "reference": "927a52eaf9f92b76ac657b92cf1ba983f6c1fb27",
                 "shasum": ""
             },
             "require": {
@@ -760,7 +758,7 @@
                 "rhubarbphp/module-patterns": "dev-develop",
                 "rhubarbphp/module-stem": "*",
                 "rhubarbphp/rhubarb": "^1.1.9",
-                "rhubarbphp/scaffold-authentication": "dev-master",
+                "rhubarbphp/scaffold-authentication": "feature/ProtectedUrls-dev as 1.0.2",
                 "rhubarbphp/scaffold-authentication-with-roles": "*",
                 "rhubarbphp/scaffold-repository-log": "dev-master",
                 "twbs/bootstrap": "^3.3"
@@ -775,7 +773,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-08 17:33:23"
+            "time": "2016-11-08 22:49:23"
         },
         {
             "name": "symfony/console",

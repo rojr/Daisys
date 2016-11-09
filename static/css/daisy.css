@@ -463,11 +463,11 @@ body .body #top-banner
     background-size:cover;
     position: relative;
     opacity:0.4;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .c-promotional-image::after {
@@ -568,4 +568,38 @@ body .body #top-banner
     .promotional-row > div {
         padding:0px!important;
     }
+}
+
+.c-breadcrumb {
+    margin-top:7.5px;
+    width:100%;
+    background-color: #fff3fc;
+}
+
+.c-breadcrumb .c-breadcrumb--item span:before {
+    font-family:FontAwesome!important;
+    content: '\f054';
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right:5px;
+}
+
+.c-breadcrumb .c-breadcrumb--item {
+    padding: 7.5px;
+    padding-left: 7.5px;
+    background-color: #ffe7f3;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.c-breadcrumb .c-breadcrumb--item:hover {
+    background-color: #ffd5ec;
+}
+
+.c-breadcrumb .c-breadcrumb--item a:hover {
+    text-decoration: none;
 }
