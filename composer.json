@@ -9,7 +9,7 @@
     }
   },
   "require": {
-    "rojr/super-cms":"*"
+    "rojr/super-cms":"dev-master"
   },
   "config": {
     "bin-dir": "bin/"

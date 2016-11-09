@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ffc726499f0badf017fab63b9cebd86",
-    "content-hash": "eba5c01d58d02244945a8021468c0db4",
+    "hash": "642d481e43a96e844f6c6ef2bbb8e3e6",
+    "content-hash": "d03dc065605368c72f017ce0a2d1459c",
     "packages": [
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -740,23 +740,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "927a52eaf9f92b76ac657b92cf1ba983f6c1fb27"
+                "reference": "9fcb7563301ed6a773622ca74ddefdeaf47b669a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/927a52eaf9f92b76ac657b92cf1ba983f6c1fb27",
-                "reference": "927a52eaf9f92b76ac657b92cf1ba983f6c1fb27",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/9fcb7563301ed6a773622ca74ddefdeaf47b669a",
+                "reference": "9fcb7563301ed6a773622ca74ddefdeaf47b669a",
                 "shasum": ""
             },
             "require": {
-                "rhubarbphp/module-leaf": "*",
+                "rhubarbphp/module-leaf": "^1.1.10",
                 "rhubarbphp/module-leaf-common-controls": "1.0.9",
                 "rhubarbphp/module-leaf-crud": "^1.0.0",
                 "rhubarbphp/module-leaf-search-panel": "1.0.0",
                 "rhubarbphp/module-leaf-table": "*",
                 "rhubarbphp/module-leaf-tabs": "^1.0.0",
                 "rhubarbphp/module-patterns": "dev-develop",
-                "rhubarbphp/module-stem": "*",
+                "rhubarbphp/module-stem": "^1.3.14",
                 "rhubarbphp/rhubarb": "^1.1.9",
                 "rhubarbphp/scaffold-authentication": "feature/ProtectedUrls-dev as 1.0.2",
                 "rhubarbphp/scaffold-authentication-with-roles": "*",
@@ -773,7 +773,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-08 22:49:23"
+            "time": "2016-11-09 00:40:47"
         },
         {
             "name": "symfony/console",
@@ -1009,7 +1009,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "rojr/super-cms": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
