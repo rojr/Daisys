@@ -119,10 +119,13 @@ body .body #top-banner
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33);
 }
 
+.button-full-width {
+    width: 100% !important;
+}
+
 .search-button {
     width:100%;
     height: 38px;
-
     overflow: hidden;
 }
 
@@ -602,4 +605,8 @@ body .body #top-banner
 
 .c-breadcrumb .c-breadcrumb--item a:hover {
     text-decoration: none;
+}
+
+.c-to-checkout {
+    padding-top: 7.5px;
 }

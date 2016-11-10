@@ -452,16 +452,16 @@
         },
         {
             "name": "rhubarbphp/custard-sassc",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Custard.SassC.git",
-                "reference": "7801188e80fce230ca8df45b31817bf9ba6fc8f6"
+                "reference": "03f3b87b74432624a08a05afe0b1e4c61c82da05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Custard.SassC/zipball/7801188e80fce230ca8df45b31817bf9ba6fc8f6",
-                "reference": "7801188e80fce230ca8df45b31817bf9ba6fc8f6",
+                "url": "https://api.github.com/repos/RhubarbPHP/Custard.SassC/zipball/03f3b87b74432624a08a05afe0b1e4c61c82da05",
+                "reference": "03f3b87b74432624a08a05afe0b1e4c61c82da05",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-09T15:42:16+00:00"
+            "time": "2016-11-10T10:33:49+00:00"
         },
         {
             "name": "rhubarbphp/module-jsvalidation",
@@ -1276,12 +1276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "d9d120de13e725d6f3668d80593edb2af0ac0f7f"
+                "reference": "1774cc44762ec1f0f14d4966f0707d04d8931226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/d9d120de13e725d6f3668d80593edb2af0ac0f7f",
-                "reference": "d9d120de13e725d6f3668d80593edb2af0ac0f7f",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/1774cc44762ec1f0f14d4966f0707d04d8931226",
+                "reference": "1774cc44762ec1f0f14d4966f0707d04d8931226",
                 "shasum": ""
             },
             "require": {
@@ -1303,6 +1303,7 @@
                 "rhubarbphp/scaffold-authentication": "feature/ProtectedUrls-dev as 1.0.2",
                 "rhubarbphp/scaffold-communications": "dev-master",
                 "rhubarbphp/scaffold-navigation-menu": "^1.0.0",
+                "stripe/stripe-php": "*",
                 "twbs/bootstrap": "^3.3"
             },
             "type": "library",
@@ -1315,7 +1316,62 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-10 00:06:42"
+            "time": "2016-11-10 21:33:04"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "c5573aed8d7938d9312416848546df400d339af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/c5573aed8d7938d9312416848546df400d339af6",
+                "reference": "c5573aed8d7938d9312416848546df400d339af6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6.1",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "time": "2016-11-02 20:23:48"
         },
         {
             "name": "symfony/console",
