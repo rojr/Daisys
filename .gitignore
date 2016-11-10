@@ -6,3 +6,4 @@ deployed/
 cache/
 settings/site.config.php
 static/images/products/*
+components/
