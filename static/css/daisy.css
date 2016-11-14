@@ -632,12 +632,37 @@ body .body #top-banner
 }
 
 .ajax-progress::after {
+    position: absolute;
+    z-index: 999999;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Vector_Loading.svg/1024px-Vector_Loading.svg.png);
+    background-position: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    max-width: 32px;
+    width: 100%;
+    animation: fa-spin 1s infinite;
+    animation-timing-function: linear;
+}
+
+.ajax-progress::before {
     top:0;
     right: 0;
     left:0;
     bottom:0;
     position: absolute;
-    z-index: 99999999999;
-    background-image: url("https://store.smartpinoy.com/assets/images/loading.GIF");
-    background:red;
+    opacity: 0.5;
+    z-index: 999997;
+    background-color: #611d41;
+    content:'';
+}
+
+@-webkit-keyframes fa-spin {
+
 }
