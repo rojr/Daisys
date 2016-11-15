@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "21e58f4aae806fce58c6cc8dee3ef607",
     "content-hash": "eba5c01d58d02244945a8021468c0db4",
     "packages": [
         {
@@ -99,7 +100,7 @@
                 "select",
                 "ui"
             ],
-            "time": "2016-06-23T06:51:35+00:00"
+            "time": "2016-06-23 06:51:35"
         },
         {
             "name": "erusev/parsedown",
@@ -141,7 +142,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2016-11-02T15:56:58+00:00"
+            "time": "2016-11-02 15:56:58"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -232,7 +233,7 @@
                 "minification",
                 "scss"
             ],
-            "time": "2016-11-03T14:44:01+00:00"
+            "time": "2016-11-03 14:44:01"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -358,7 +359,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2015-02-03T12:10:50+00:00"
+            "time": "2015-02-03 12:10:50"
         },
         {
             "name": "psr/log",
@@ -451,7 +452,7 @@
                 "rhubarb",
                 "tools"
             ],
-            "time": "2016-08-04T21:46:40+00:00"
+            "time": "2016-08-04 21:46:40"
         },
         {
             "name": "rhubarbphp/custard-sassc",
@@ -492,7 +493,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-10T10:33:49+00:00"
+            "time": "2016-11-10 10:33:49"
         },
         {
             "name": "rhubarbphp/module-jsvalidation",
@@ -514,20 +515,20 @@
                 "Apache 2.0"
             ],
             "description": "Provides javascript validation patterns for HTML forms",
-            "time": "2016-11-02T12:32:15+00:00"
+            "time": "2016-11-02 12:32:15"
         },
         {
             "name": "rhubarbphp/module-leaf",
-            "version": "1.1.10",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Leaf.git",
-                "reference": "a19156fa721dfa19a769816410321fadd32b4cc9"
+                "reference": "45a5e67a15f21d634ede7af3b1860a950e68a984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf/zipball/a19156fa721dfa19a769816410321fadd32b4cc9",
-                "reference": "a19156fa721dfa19a769816410321fadd32b4cc9",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf/zipball/45a5e67a15f21d634ede7af3b1860a950e68a984",
+                "reference": "45a5e67a15f21d634ede7af3b1860a950e68a984",
                 "shasum": ""
             },
             "require": {
@@ -567,7 +568,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-09-19T15:05:06+00:00"
+            "time": "2016-11-15 10:13:27"
         },
         {
             "name": "rhubarbphp/module-leaf-common-controls",
@@ -606,7 +607,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-09T11:35:29+00:00"
+            "time": "2016-11-09 11:35:29"
         },
         {
             "name": "rhubarbphp/module-leaf-crud",
@@ -644,7 +645,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-10-26T12:37:18+00:00"
+            "time": "2016-10-26 12:37:18"
         },
         {
             "name": "rhubarbphp/module-leaf-html5upload",
@@ -685,7 +686,7 @@
                 "rhubarb",
                 "upload"
             ],
-            "time": "2016-11-02T15:20:50+00:00"
+            "time": "2016-11-02 15:20:50"
         },
         {
             "name": "rhubarbphp/module-leaf-paging",
@@ -723,7 +724,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-08-23T09:29:04+00:00"
+            "time": "2016-08-23 09:29:04"
         },
         {
             "name": "rhubarbphp/module-leaf-search-panel",
@@ -769,7 +770,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-08-04T22:31:48+00:00"
+            "time": "2016-08-04 22:31:48"
         },
         {
             "name": "rhubarbphp/module-leaf-table",
@@ -810,7 +811,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-07T10:35:01+00:00"
+            "time": "2016-11-07 10:35:01"
         },
         {
             "name": "rhubarbphp/module-leaf-tabs",
@@ -849,7 +850,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-08-24T12:01:39+00:00"
+            "time": "2016-08-24 12:01:39"
         },
         {
             "name": "rhubarbphp/module-patterns",
@@ -943,7 +944,7 @@
                 "orm",
                 "php"
             ],
-            "time": "2016-10-28T14:49:15+00:00"
+            "time": "2016-10-28 14:49:15"
         },
         {
             "name": "rhubarbphp/rhubarb",
@@ -990,7 +991,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2016-11-07T16:18:28+00:00"
+            "time": "2016-11-07 16:18:28"
         },
         {
             "name": "rhubarbphp/scaffold-application-settings",
@@ -1032,7 +1033,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-10-27T21:23:22+00:00"
+            "time": "2016-10-27 21:23:22"
         },
         {
             "name": "rhubarbphp/scaffold-authentication",
@@ -1279,12 +1280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "ea0a2edd8e622f645dbfabb93b8b4452cd75928e"
+                "reference": "d970c161fc25acde363aedf98449db1f2fd3011f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/ea0a2edd8e622f645dbfabb93b8b4452cd75928e",
-                "reference": "ea0a2edd8e622f645dbfabb93b8b4452cd75928e",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/d970c161fc25acde363aedf98449db1f2fd3011f",
+                "reference": "d970c161fc25acde363aedf98449db1f2fd3011f",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1321,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-14 23:13:32"
+            "time": "2016-11-15 14:06:57"
         },
         {
             "name": "stripe/stripe-php",
