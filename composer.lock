@@ -572,16 +572,16 @@
         },
         {
             "name": "rhubarbphp/module-leaf-common-controls",
-            "version": "1.0.16",
+            "version": "1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Leaf.CommonControls.git",
-                "reference": "5ee9e93876e77f9c56d483b0515ee483389d0e33"
+                "reference": "c8d276adfd6f33b66eea09d7d4512e1ed1b7e99f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.CommonControls/zipball/5ee9e93876e77f9c56d483b0515ee483389d0e33",
-                "reference": "5ee9e93876e77f9c56d483b0515ee483389d0e33",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Leaf.CommonControls/zipball/c8d276adfd6f33b66eea09d7d4512e1ed1b7e99f",
+                "reference": "c8d276adfd6f33b66eea09d7d4512e1ed1b7e99f",
                 "shasum": ""
             },
             "require": {
@@ -607,7 +607,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-09 11:35:29"
+            "time": "2016-11-16 14:26:29"
         },
         {
             "name": "rhubarbphp/module-leaf-crud",
@@ -948,16 +948,16 @@
         },
         {
             "name": "rhubarbphp/rhubarb",
-            "version": "1.1.16",
+            "version": "1.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Rhubarb.git",
-                "reference": "26959d9c9bec643c916f4e26d8381ee5497bf8fc"
+                "reference": "6a49d8a5e0a0912b1cd8f7da09558cdd86ed1c8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/26959d9c9bec643c916f4e26d8381ee5497bf8fc",
-                "reference": "26959d9c9bec643c916f4e26d8381ee5497bf8fc",
+                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/6a49d8a5e0a0912b1cd8f7da09558cdd86ed1c8d",
+                "reference": "6a49d8a5e0a0912b1cd8f7da09558cdd86ed1c8d",
                 "shasum": ""
             },
             "require": {
@@ -991,7 +991,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2016-11-07 16:18:28"
+            "time": "2016-11-15 15:29:29"
         },
         {
             "name": "rhubarbphp/scaffold-application-settings",
@@ -1280,12 +1280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "d970c161fc25acde363aedf98449db1f2fd3011f"
+                "reference": "71ed56090828a50d5c2a0ea905aa08acd9058932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/d970c161fc25acde363aedf98449db1f2fd3011f",
-                "reference": "d970c161fc25acde363aedf98449db1f2fd3011f",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/71ed56090828a50d5c2a0ea905aa08acd9058932",
+                "reference": "71ed56090828a50d5c2a0ea905aa08acd9058932",
                 "shasum": ""
             },
             "require": {
@@ -1321,7 +1321,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-15 14:06:57"
+            "time": "2016-11-16 23:58:39"
         },
         {
             "name": "stripe/stripe-php",
@@ -1384,12 +1384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "8e649c72b83a86851ce234e305d2502f234c0ffa"
+                "reference": "09d0fd33560e3573185a2ea17614e37ba38716c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/8e649c72b83a86851ce234e305d2502f234c0ffa",
-                "reference": "8e649c72b83a86851ce234e305d2502f234c0ffa",
+                "url": "https://api.github.com/repos/symfony/console/zipball/09d0fd33560e3573185a2ea17614e37ba38716c5",
+                "reference": "09d0fd33560e3573185a2ea17614e37ba38716c5",
                 "shasum": ""
             },
             "require": {
@@ -1439,7 +1439,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:20:13"
+            "time": "2016-11-16 22:18:16"
         },
         {
             "name": "symfony/debug",
@@ -1447,12 +1447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "6a4b5ee6a705a8975aa4d6c0ff0ecf830c6e677c"
+                "reference": "9f923e68d524a3095c5a2ae5fc7220c7cbc12231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/6a4b5ee6a705a8975aa4d6c0ff0ecf830c6e677c",
-                "reference": "6a4b5ee6a705a8975aa4d6c0ff0ecf830c6e677c",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/9f923e68d524a3095c5a2ae5fc7220c7cbc12231",
+                "reference": "9f923e68d524a3095c5a2ae5fc7220c7cbc12231",
                 "shasum": ""
             },
             "require": {
@@ -1496,7 +1496,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:11:03"
+            "time": "2016-11-16 22:18:16"
         },
         {
             "name": "symfony/polyfill-mbstring",
