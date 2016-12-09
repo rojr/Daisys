@@ -891,16 +891,16 @@
         },
         {
             "name": "rhubarbphp/module-stem",
-            "version": "1.3.17",
+            "version": "1.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Module.Stem.git",
-                "reference": "a46cfbfb3c33ae2632423bb49cdca0774f8b7c52"
+                "reference": "b595f2df4b7f52195a0f6bcf8a366d3a43cf68d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Module.Stem/zipball/a46cfbfb3c33ae2632423bb49cdca0774f8b7c52",
-                "reference": "a46cfbfb3c33ae2632423bb49cdca0774f8b7c52",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Stem/zipball/b595f2df4b7f52195a0f6bcf8a366d3a43cf68d9",
+                "reference": "b595f2df4b7f52195a0f6bcf8a366d3a43cf68d9",
                 "shasum": ""
             },
             "require": {
@@ -939,20 +939,20 @@
                 "orm",
                 "php"
             ],
-            "time": "2016-12-02 16:05:05"
+            "time": "2016-12-06 15:27:17"
         },
         {
             "name": "rhubarbphp/rhubarb",
-            "version": "1.1.17",
+            "version": "1.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Rhubarb.git",
-                "reference": "6a49d8a5e0a0912b1cd8f7da09558cdd86ed1c8d"
+                "reference": "c84b5e5efd793c5625c3b004931b62d77339e56e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/6a49d8a5e0a0912b1cd8f7da09558cdd86ed1c8d",
-                "reference": "6a49d8a5e0a0912b1cd8f7da09558cdd86ed1c8d",
+                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/c84b5e5efd793c5625c3b004931b62d77339e56e",
+                "reference": "c84b5e5efd793c5625c3b004931b62d77339e56e",
                 "shasum": ""
             },
             "require": {
@@ -986,7 +986,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2016-11-15 15:29:29"
+            "time": "2016-12-09 10:02:37"
         },
         {
             "name": "rhubarbphp/scaffold-application-settings",
@@ -1124,12 +1124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Scaffold.Communications.git",
-                "reference": "eeae2d2bbf6e6dba2d4b63b86619d11ed1ede8c1"
+                "reference": "d78934f10b041f372600632cc49a5b5c5a394f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.Communications/zipball/eeae2d2bbf6e6dba2d4b63b86619d11ed1ede8c1",
-                "reference": "eeae2d2bbf6e6dba2d4b63b86619d11ed1ede8c1",
+                "url": "https://api.github.com/repos/RhubarbPHP/Scaffold.Communications/zipball/d78934f10b041f372600632cc49a5b5c5a394f09",
+                "reference": "d78934f10b041f372600632cc49a5b5c5a394f09",
                 "shasum": ""
             },
             "require": {
@@ -1170,7 +1170,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-10-18 11:19:11"
+            "time": "2016-12-08 14:19:52"
         },
         {
             "name": "rhubarbphp/scaffold-navigation-menu",
@@ -1275,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "c4204f52ec1afebacd1b90e649b1f1da1664b605"
+                "reference": "fb36756e5dad5a0057338fa180d5b8f4e807d552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/c4204f52ec1afebacd1b90e649b1f1da1664b605",
-                "reference": "c4204f52ec1afebacd1b90e649b1f1da1664b605",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/fb36756e5dad5a0057338fa180d5b8f4e807d552",
+                "reference": "fb36756e5dad5a0057338fa180d5b8f4e807d552",
                 "shasum": ""
             },
             "require": {
@@ -1316,7 +1316,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2016-11-28 23:15:37"
+            "time": "2016-12-09 14:32:22"
         },
         {
             "name": "stripe/stripe-php",
@@ -1379,12 +1379,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "0eeddc19feb3bd91c443e676bd07c6ce5c30cfa3"
+                "reference": "3c2380fcde1e7311afdc20836f4db460f0550427"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/0eeddc19feb3bd91c443e676bd07c6ce5c30cfa3",
-                "reference": "0eeddc19feb3bd91c443e676bd07c6ce5c30cfa3",
+                "url": "https://api.github.com/repos/symfony/console/zipball/3c2380fcde1e7311afdc20836f4db460f0550427",
+                "reference": "3c2380fcde1e7311afdc20836f4db460f0550427",
                 "shasum": ""
             },
             "require": {
@@ -1434,7 +1434,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-19 20:35:20"
+            "time": "2016-12-08 15:31:48"
         },
         {
             "name": "symfony/debug",
