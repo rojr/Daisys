@@ -397,15 +397,17 @@ body .body #top-banner
     background-color: #a692fc;
     color: white;
     padding: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
     border-radius: 90px;
-    border:1px solid white;
-    -webkit-transition: color 0.4s, border 0.4s, background-color 0.4s;
-    -moz-transition: color 0.4s, border 0.4s, background-color 0.4s;
-    -ms-transition: color 0.4s, border 0.4s, background-color 0.4s;
-    -o-transition: color 0.4s, border 0.4s, background-color 0.4s;
-    transition: color 0.4s, border 0.4s, background-color 0.4s;
+    border:none;
+    margin-left:1px;
+    margin-right: 1px;
+    -webkit-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
+    -moz-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
+    -ms-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
+    -o-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
+    transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
 }
 
 #c-global-basket:hover .c-basket-count {
@@ -628,5 +630,9 @@ body .body #top-banner
 }
 
 .c-register-bottom {
+    text-align: center;
+}
+
+.c-input-center {
     text-align: center;
 }
