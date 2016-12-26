@@ -15,6 +15,7 @@ body {
     -webkit-box-shadow: 10px 10px 22px -9px rgba(158,158,158,1);
     -moz-box-shadow: 10px 10px 22px -9px rgba(158,158,158,1);
     box-shadow: 10px 10px 22px -9px rgba(158,158,158,1);
+    margin-top: 14px;
 }
 
 body .body #top-banner
@@ -23,7 +24,6 @@ body .body #top-banner
     height: 300px;
     width: 100%;
     overflow: hidden;
-    margin-top: 14px;
 }
 
 .search-group div {
@@ -403,17 +403,20 @@ body .body #top-banner
     border:none;
     margin-left:1px;
     margin-right: 1px;
-    -webkit-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
-    -moz-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
-    -ms-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
-    -o-transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
-    transition: color 0.4s, border 0.4s, background-color 0.4s, margin-left 0.4s;
+    -webkit-transition: color 0.4s, box-shadow 0.4s, background-color 0.4s, margin-left 0.4s;
+    -moz-transition: color 0.4s, box-shadow 0.4s, background-color 0.4s, margin-left 0.4s;
+    -ms-transition: color 0.4s, box-shadow 0.4s, background-color 0.4s, margin-left 0.4s;
+    -o-transition: color 0.4s, box-shadow 0.4s, background-color 0.4s, margin-left 0.4s;
+    transition: color 0.4s, box-shadow 0.4s, background-color 0.4s, margin-left 0.4s;
+
 }
 
 #c-global-basket:hover .c-basket-count {
     background-color: white;
     color: #a692fc;
-    border:1px solid #a692fc;
+    -webkit-box-shadow:inset 0px 0px 0px 1px #a692fc;
+    -moz-box-shadow:inset 0px 0px 0px 1px #a692fc;
+    box-shadow:inset 0px 0px 0px 1px #a692fc;
 }
 
 .c-menu-items a {
@@ -635,4 +638,12 @@ body .body #top-banner
 
 .c-input-center {
     text-align: center;
+}
+
+.login-form input {
+    text-align: center;
+}
+
+.btn {
+    outline: none!important;
 }

@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21e58f4aae806fce58c6cc8dee3ef607",
     "content-hash": "eba5c01d58d02244945a8021468c0db4",
     "packages": [
         {
@@ -100,7 +99,7 @@
                 "select",
                 "ui"
             ],
-            "time": "2016-06-23 06:51:35"
+            "time": "2016-06-23T06:51:35+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -142,7 +141,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2016-11-02 15:56:58"
+            "time": "2016-11-02T15:56:58+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -233,7 +232,7 @@
                 "minification",
                 "scss"
             ],
-            "time": "2016-11-03 14:44:01"
+            "time": "2016-11-03T14:44:01+00:00"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -359,7 +358,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2015-02-03 12:10:50"
+            "time": "2015-02-03T12:10:50+00:00"
         },
         {
             "name": "psr/log",
@@ -452,7 +451,7 @@
                 "rhubarb",
                 "tools"
             ],
-            "time": "2016-08-04 21:46:40"
+            "time": "2016-08-04T21:46:40+00:00"
         },
         {
             "name": "rhubarbphp/custard-sassc",
@@ -493,7 +492,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-10 10:33:49"
+            "time": "2016-11-10T10:33:49+00:00"
         },
         {
             "name": "rhubarbphp/module-jsvalidation",
@@ -515,7 +514,7 @@
                 "Apache 2.0"
             ],
             "description": "Provides javascript validation patterns for HTML forms",
-            "time": "2016-11-02 12:32:15"
+            "time": "2016-11-02T12:32:15+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf",
@@ -568,7 +567,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-15 10:13:27"
+            "time": "2016-11-15T10:13:27+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-common-controls",
@@ -607,7 +606,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-23 10:33:45"
+            "time": "2016-11-23T10:33:45+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-crud",
@@ -645,7 +644,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-10-26 12:37:18"
+            "time": "2016-10-26T12:37:18+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-html5upload",
@@ -686,7 +685,7 @@
                 "rhubarb",
                 "upload"
             ],
-            "time": "2016-11-02 15:20:50"
+            "time": "2016-11-02T15:20:50+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-paging",
@@ -724,7 +723,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-08-23 09:29:04"
+            "time": "2016-08-23T09:29:04+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-search-panel",
@@ -765,7 +764,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-24 16:43:04"
+            "time": "2016-11-24T16:43:04+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-table",
@@ -806,7 +805,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-11-07 10:35:01"
+            "time": "2016-11-07T10:35:01+00:00"
         },
         {
             "name": "rhubarbphp/module-leaf-tabs",
@@ -845,7 +844,7 @@
                 "presenter",
                 "rhubarb"
             ],
-            "time": "2016-08-24 12:01:39"
+            "time": "2016-08-24T12:01:39+00:00"
         },
         {
             "name": "rhubarbphp/module-patterns",
@@ -939,7 +938,7 @@
                 "orm",
                 "php"
             ],
-            "time": "2016-12-06 15:27:17"
+            "time": "2016-12-06T15:27:17+00:00"
         },
         {
             "name": "rhubarbphp/rhubarb",
@@ -986,7 +985,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2016-12-09 10:02:37"
+            "time": "2016-12-09T10:02:37+00:00"
         },
         {
             "name": "rhubarbphp/scaffold-application-settings",
@@ -1028,7 +1027,7 @@
                 "php",
                 "rhubarb"
             ],
-            "time": "2016-10-27 21:23:22"
+            "time": "2016-10-27T21:23:22+00:00"
         },
         {
             "name": "rhubarbphp/scaffold-authentication",
