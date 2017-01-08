@@ -647,3 +647,8 @@ body .body #top-banner
 .btn {
     outline: none!important;
 }
+
+.c-basket-empty {
+    text-align: center;
+    margin-bottom: 24px;
+}
