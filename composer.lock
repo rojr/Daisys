@@ -410,20 +410,20 @@
         },
         {
             "name": "rhubarbphp/custard",
-            "version": "1.0.9",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Custard.git",
-                "reference": "9bbb26787291013724db4e3b261624efe795a599"
+                "reference": "6dc357a82cda13d9ef9bb3e9aa2ed823bbcc3ee6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Custard/zipball/9bbb26787291013724db4e3b261624efe795a599",
-                "reference": "9bbb26787291013724db4e3b261624efe795a599",
+                "url": "https://api.github.com/repos/RhubarbPHP/Custard/zipball/6dc357a82cda13d9ef9bb3e9aa2ed823bbcc3ee6",
+                "reference": "6dc357a82cda13d9ef9bb3e9aa2ed823bbcc3ee6",
                 "shasum": ""
             },
             "require": {
-                "phpdocumentor/reflection-docblock": "2.0.4",
+                "phpdocumentor/reflection-docblock": "^2.0.4",
                 "symfony/console": ">=2.7.5"
             },
             "bin": [
@@ -452,7 +452,7 @@
                 "rhubarb",
                 "tools"
             ],
-            "time": "2016-08-04 21:46:40"
+            "time": "2017-01-09 16:06:24"
         },
         {
             "name": "rhubarbphp/custard-sassc",
@@ -1275,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "b30d4e123d86eff288eb965e9e99508e0f9f3e9d"
+                "reference": "459bcb1cc6be77afa459f59ef70f2a177a143e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/b30d4e123d86eff288eb965e9e99508e0f9f3e9d",
-                "reference": "b30d4e123d86eff288eb965e9e99508e0f9f3e9d",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/459bcb1cc6be77afa459f59ef70f2a177a143e51",
+                "reference": "459bcb1cc6be77afa459f59ef70f2a177a143e51",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,8 @@
                 "rhubarbphp/scaffold-communications": "dev-master",
                 "rhubarbphp/scaffold-navigation-menu": "^1.0.0",
                 "stripe/stripe-php": "*",
-                "twbs/bootstrap": "^3.3"
+                "twbs/bootstrap": "^3.3",
+                "vakata/jstree": "*"
             },
             "type": "library",
             "autoload": {
@@ -1316,7 +1317,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2017-01-08 03:37:52"
+            "time": "2017-01-10 22:38:17"
         },
         {
             "name": "stripe/stripe-php",
@@ -1379,12 +1380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "6531a815bf75c52001bf4c7fd28a83de475eabc8"
+                "reference": "fddd0c5c7c9c3126c7e1f7ce7c851439a7e586b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/6531a815bf75c52001bf4c7fd28a83de475eabc8",
-                "reference": "6531a815bf75c52001bf4c7fd28a83de475eabc8",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fddd0c5c7c9c3126c7e1f7ce7c851439a7e586b1",
+                "reference": "fddd0c5c7c9c3126c7e1f7ce7c851439a7e586b1",
                 "shasum": ""
             },
             "require": {
@@ -1434,7 +1435,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-06 18:34:44"
+            "time": "2017-01-08 21:15:04"
         },
         {
             "name": "symfony/debug",
@@ -1651,6 +1652,63 @@
                 "web"
             ],
             "time": "2016-09-22 10:06:30"
+        },
+        {
+            "name": "vakata/jstree",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vakata/jstree.git",
+                "reference": "4221ed651f3cb3948a488fff2f01b1700103092a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/4221ed651f3cb3948a488fff2f01b1700103092a",
+                "reference": "4221ed651f3cb3948a488fff2f01b1700103092a",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": ">=1.9.1"
+            },
+            "suggest": {
+                "robloach/component-installer": "Allows installation of Components via Composer"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "dist/jstree.js"
+                    ],
+                    "styles": [
+                        "dist/themes/default/style.css"
+                    ],
+                    "images": [
+                        "dist/themes/default/32px.png",
+                        "dist/themes/default/40px.png",
+                        "dist/themes/default/throbber.gif"
+                    ],
+                    "files": [
+                        "dist/jstree.min.js",
+                        "dist/themes/default/style.min.css",
+                        "dist/themes/default/32px.png",
+                        "dist/themes/default/40px.png",
+                        "dist/themes/default/throbber.gif"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Bozhanov",
+                    "email": "jstree@jstree.com"
+                }
+            ],
+            "description": "jsTree is jquery plugin, that provides interactive trees.",
+            "homepage": "http://jstree.com",
+            "time": "2016-12-28 09:19:12"
         }
     ],
     "packages-dev": [],
