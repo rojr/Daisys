@@ -2,8 +2,8 @@
 
 namespace Daisys\Views;
 
-use Daisys\Controls\Search\SearchLeaf;
 use Rhubarb\Leaf\Views\View;
+use SuperCMS\Views\SearchPanelTrait;
 
 class DaisyDefaultView extends View
 {

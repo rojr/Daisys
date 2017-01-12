@@ -2,8 +2,8 @@
 
 namespace Daisys\Leaves\Views;
 
-use Daisys\Views\SearchPanelTrait;
 use SuperCMS\Leaves\Site\Basket\BasketPageView;
+use SuperCMS\Views\SearchPanelTrait;
 
 class DaisysBasketPageView extends BasketPageView
 {

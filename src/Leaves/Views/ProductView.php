@@ -2,8 +2,8 @@
 
 namespace Daisys\Leaves\Views;
 
-use Daisys\Views\SearchPanelTrait;
 use SuperCMS\Leaves\Site\Product\ProductItemView;
+use SuperCMS\Views\SearchPanelTrait;
 
 class ProductView extends ProductItemView
 {
