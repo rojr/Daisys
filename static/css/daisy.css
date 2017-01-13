@@ -276,6 +276,10 @@ body .body #top-banner
     overflow: hidden;
 }
 
+.basket-product {
+    position: relative;
+}
+
 .basket-product .product-image {
     max-height: 120px;
 }
@@ -651,4 +655,40 @@ body .body #top-banner
 .c-basket-empty {
     text-align: center;
     margin-bottom: 24px;
+}
+
+.c-title {
+    padding-top:14px;
+    padding-left: 14px;
+}
+
+.basket-product:hover .c-remove-button {
+    opacity:1;
+}
+
+.c-remove-button {
+    position: absolute;
+    top:-17px;
+    right:-10px;
+    font-size: 3em;
+    z-index: 20;
+    opacity:0;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.c-remove-button i {
+    color: black;
+}
+
+@media only screen
+and (max-device-width: 1000px)
+{
+    .c-remove-button {
+        opacity:1;
+    }
 }
