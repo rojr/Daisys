@@ -368,7 +368,6 @@ body .body #top-banner
     background-color: white;
     margin-top: 0;
     width: 100%;
-    padding:8px;
     -webkit-border-bottom-right-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
     -moz-border-radius-bottomright: 10px;
@@ -552,33 +551,6 @@ body .body #top-banner
     margin-top:7.5px;
 }
 
-@media screen and (max-width: 991px) {
-    .row {
-        margin: 0!important;
-    }
-
-    .col-md-10 {
-        padding:7.5px!important;
-    }
-
-    .body .content {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
-
-    .alert-outer {
-        width: 80%!important;
-        left: 10%!important;
-    }
-}
-
-@media screen and (max-width: 766px) {
-    .promotional-row > div {
-        padding:0px!important;
-    }
-}
-
 .c-breadcrumb {
     margin-top:7.5px;
     width:100%;
@@ -668,8 +640,8 @@ body .body #top-banner
 
 .c-remove-button {
     position: absolute;
-    top:-17px;
-    right:-10px;
+    top:-21px;
+    right:-18px;
     font-size: 3em;
     z-index: 20;
     opacity:0;
@@ -685,10 +657,73 @@ body .body #top-banner
     color: black;
 }
 
-@media only screen
-and (max-device-width: 1000px)
-{
+#js-login-error {
+    width:100%;
+}
+
+#c-global-basket {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+.c-mobile {
+    display: none;
+}
+
+.c-mobile-basket {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    font-size:large;
+}
+
+@media screen and (max-width: 991px) {
+    .row {
+        margin: 0!important;
+    }
+
+    .col-md-10 {
+        padding:7.5px!important;
+    }
+
+    .body .content {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .c-basket-summary {
+        padding-top: 0!important;
+    }
+
+    .search-product {
+        margin-bottom: 8px!important;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .promotional-row > div {
+        padding:0!important;
+    }
+
+    .c-basket-summary {
+        padding-left:0!important;
+    }
+
     .c-remove-button {
         opacity:1;
+        top:-17px;
+        right:-10px;
+    }
+
+    .c-mobile {
+        display: inline-block;
     }
 }

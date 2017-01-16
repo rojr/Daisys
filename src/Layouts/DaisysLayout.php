@@ -2,6 +2,7 @@
 
 namespace Daisys\Layouts;
 
+use SuperCMS\Controls\GlobalBasket\GlobalBasket;
 use SuperCMS\Layouts\DefaultLayout;
 
 class DaisysLayout extends DefaultLayout
@@ -9,15 +10,46 @@ class DaisysLayout extends DefaultLayout
     protected function printNavigationItems()
     {
         ?>
-        <div class="c-menu-items">
-            <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-            <a href="/"><i class="fa fa-info-circle" aria-hidden="true"></i> About us</a>
-            <a href="/"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Latest news</a>
-            <a href="/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Contact us</a>
+        <nav class="navbar navbar-default navbar-static-top">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="c-mobile c-mobile-basket">
+                    <a href="/basket/"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </div>
+                <a class="navbar-brand" href="#">Daisy Newry</a>
+            </div>
+        <div id="navbar" class="navbar-collapse collapse" style="height: 1px;">
+            <ul class="nav navbar-nav c-menu-items">
+                <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                <li><a href="/"><i class="fa fa-info-circle" aria-hidden="true"></i> About us</a></li>
+                <li><a href="/"><i class="fa fa-commenting-o" aria-hidden="true"></i> Contact us</a></li>
+                <li><?= $this->printBasket(true)?></li>
+            </ul>
         </div>
+        </nav>
+
         <?php
     }
 
+    protected function printBasket($print = false)
+    {
+        if ($print) {
+            ob_start();
+            ?>
+            <div id="c-global-basket">
+                <?= GlobalBasket::getInstance()->getOnlyHTML() ?>
+            </div>
+            <?php
+            return ob_get_clean();
+
+        }
+    }
     protected function printHead()
     {
         parent::printHead();
