@@ -147,6 +147,18 @@ body .body #top-banner
     width: 100% !important;
 }
 
+.button--secondary {
+    color: #000;
+    background-color: #fff;
+    border:1px solid #ffc3ee;
+}
+
+.button--secondary:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 213, 236, 0.33);
+}
+
 .search-categories {
     margin: 2px 2px 2px 2px;
     width: 98%;
