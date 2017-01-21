@@ -696,6 +696,33 @@ body .body #top-banner
     font-size:large;
 }
 
+.c-location-item {
+    min-height:224px!important;
+    position: relative;
+    cursor: pointer;
+    padding-top: 8px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.c-location-item:hover {
+    -webkit-box-shadow:inset 0px 0px 0px 1px #a692fc;
+    -moz-box-shadow:inset 0px 0px 0px 1px #a692fc;
+    box-shadow:inset 0px 0px 0px 1px #a692fc;
+}
+
+.c-location-item.selected {
+    border: 2px solid #ffc3ee;
+}
+
+.c-location-button-group {
+    position: absolute;
+    bottom: 8px;
+}
+
 @media screen and (max-width: 991px) {
     .row {
         margin: 0!important;
