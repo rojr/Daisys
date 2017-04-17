@@ -31,6 +31,7 @@ class DaisyIndexView extends DaisyDefaultView
     protected function printViewContent()
     {
         parent::printViewContent();
+        print $this->leaves['Carousel'];
         print <<<HTML
         <div class="c-page-promotional">
             <div class="row promotional-row">

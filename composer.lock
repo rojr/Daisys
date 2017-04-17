@@ -1275,12 +1275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rojr/SuperCMS.git",
-                "reference": "6ae4a68dcffb13e50db8cfa53df490bfe4995057"
+                "reference": "de955f73a43e49ed159cea2961840e9a4becec7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/6ae4a68dcffb13e50db8cfa53df490bfe4995057",
-                "reference": "6ae4a68dcffb13e50db8cfa53df490bfe4995057",
+                "url": "https://api.github.com/repos/rojr/SuperCMS/zipball/de955f73a43e49ed159cea2961840e9a4becec7d",
+                "reference": "de955f73a43e49ed159cea2961840e9a4becec7d",
                 "shasum": ""
             },
             "require": {
@@ -1291,7 +1291,6 @@
                 "rhubarbphp/module-leaf": "^1.1.10",
                 "rhubarbphp/module-leaf-common-controls": "^1.0.14",
                 "rhubarbphp/module-leaf-crud": "^1.0.3",
-                "rhubarbphp/module-leaf-html5upload": "^1.0.0",
                 "rhubarbphp/module-leaf-paging": "^1.0.3",
                 "rhubarbphp/module-leaf-search-panel": "^1.0.0",
                 "rhubarbphp/module-leaf-table": "^1.0.3",
@@ -1300,7 +1299,7 @@
                 "rhubarbphp/module-stem": "^1.3.14",
                 "rhubarbphp/rhubarb": "^1.1",
                 "rhubarbphp/scaffold-application-settings": "^1.0.0",
-                "rhubarbphp/scaffold-authentication": "feature/ProtectedUrls-dev as 1.0.2",
+                "rhubarbphp/scaffold-authentication": "*",
                 "rhubarbphp/scaffold-communications": "dev-master",
                 "rhubarbphp/scaffold-navigation-menu": "^1.0.0",
                 "stripe/stripe-php": "*",
@@ -1317,7 +1316,7 @@
             "license": [
                 "Apache 2.0"
             ],
-            "time": "2017-01-21 01:46:35"
+            "time": "2017-03-14 20:47:49"
         },
         {
             "name": "stripe/stripe-php",

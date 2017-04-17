@@ -288,6 +288,11 @@ body .body #top-banner
     overflow: hidden;
 }
 
+.search-product:hover {
+    background-color: #fde0ff;
+    cursor: pointer;
+}
+
 .basket-product {
     position: relative;
 }
@@ -697,6 +702,7 @@ body .body #top-banner
 }
 
 .c-location-item {
+    text-align: center;
     min-height:224px!important;
     position: relative;
     cursor: pointer;
@@ -706,6 +712,12 @@ body .body #top-banner
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    margin-bottom: 8px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .c-location-item:hover {
@@ -720,6 +732,7 @@ body .body #top-banner
 
 .c-location-button-group {
     position: absolute;
+    width:100%;
     bottom: 8px;
 }
 
@@ -765,4 +778,27 @@ body .body #top-banner
     .c-mobile {
         display: inline-block;
     }
+
+    .c-full-mobile {
+        width: 100%;
+    }
+}
+
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left {
+    left: 50%;
+    margin-left: -10px;
+}
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-right {
+    right: 50%;
+    margin-right: -10px;
 }
