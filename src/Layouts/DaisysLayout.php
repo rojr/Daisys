@@ -22,7 +22,7 @@ class DaisysLayout extends DefaultLayout
                 <div class="c-mobile c-mobile-basket">
                     <a href="/basket/"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                 </div>
-                <a class="navbar-brand" href="#">Daisy Newry</a>
+                <a class="navbar-brand" href="/">Daisy Newry</a>
             </div>
         <div id="navbar" class="navbar-collapse collapse" style="height: 1px;">
             <ul class="nav navbar-nav c-menu-items">
