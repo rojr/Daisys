@@ -326,6 +326,7 @@ body .body #top-banner
 
 .basket-product {
     position: relative;
+    height:inherit;
 }
 
 .basket-product .product-image {
@@ -740,10 +741,11 @@ body .body #top-banner
 
 .c-location-item {
     text-align: center;
-    min-height:224px!important;
+    min-height:200px!important;
     position: relative;
     cursor: pointer;
     padding-top: 8px;
+    padding-bottom:8px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -757,6 +759,10 @@ body .body #top-banner
     border-radius: 8px;
 }
 
+.c-location-item > p {
+    margin-bottom:0;
+}
+
 .c-location-item:hover {
     -webkit-box-shadow:inset 0px 0px 0px 1px #a692fc;
     -moz-box-shadow:inset 0px 0px 0px 1px #a692fc;
@@ -768,7 +774,6 @@ body .body #top-banner
 }
 
 .c-location-button-group {
-    position: absolute;
     width:100%;
     bottom: 8px;
 }
