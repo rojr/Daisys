@@ -5,6 +5,13 @@ body, h1, h2, h3, h4, h5, span, b, p, a {
     font-family: 'Quicksand', sans-serif!important;
 }
 
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #ffb7b7; /* Gecko Browsers */
+}
+
 body {
     -webkit-background-size: auto!important;
     background-size: auto!important;
@@ -180,7 +187,7 @@ body .body #top-banner
 
 .button--secondary {
     color: #000;
-    background-color: #fff;
+    background-color: transparent;
     border:1px solid #ffc3ee;
 }
 
@@ -740,12 +747,9 @@ body .body #top-banner
 }
 
 .c-location-item {
-    text-align: center;
-    min-height:200px!important;
+    text-align: left;
     position: relative;
     cursor: pointer;
-    padding-top: 8px;
-    padding-bottom:8px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -757,25 +761,46 @@ body .body #top-banner
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+    padding:16px;
+    border:1px solid white;
 }
 
 .c-location-item > p {
     margin-bottom:0;
 }
 
-.c-location-item:hover {
-    -webkit-box-shadow:inset 0px 0px 0px 1px #a692fc;
-    -moz-box-shadow:inset 0px 0px 0px 1px #a692fc;
-    box-shadow:inset 0px 0px 0px 1px #a692fc;
-}
-
 .c-location-item.selected {
-    border: 2px solid #ffc3ee;
+    background-color: rgba(246, 207, 255, 0.22);
+    border:1px solid rgba(255, 195, 238, 0.53);
+    -webkit-box-shadow: 4px 4px 36px -1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 4px 4px 36px -1px rgba(0,0,0,0.05);
+    box-shadow: 4px 4px 36px -1px rgba(0,0,0,0.05);
 }
 
 .c-location-button-group {
     width:100%;
     bottom: 8px;
+}
+
+.c-location-deliver-to-btn {
+    margin-bottom: 8px !important;
+    margin-right:100%;
+}
+
+.c-location-deliver-to-outer {
+    display: block;
+}
+
+.c-location-button-group .btn {
+    margin-right:8px;
+}
+
+.c-location-value-group {
+    min-height:172px;
+}
+
+.c-location-value-group p {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 991px) {
