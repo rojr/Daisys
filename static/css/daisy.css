@@ -88,6 +88,11 @@ body .body #top-banner
     border:2px solid #ffc3ee;
     margin-left:15px;
     margin-right:15px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 .c-result-section ul {
