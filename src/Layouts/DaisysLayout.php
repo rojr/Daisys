@@ -78,5 +78,7 @@ class DaisysLayout extends DefaultLayout
         <?php
     }
 
-
+    protected function printTopBanner()
+    {
+    }
 }

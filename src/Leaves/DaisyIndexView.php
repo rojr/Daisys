@@ -30,6 +30,12 @@ class DaisyIndexView extends DaisyDefaultView
 
     protected function printViewContent()
     {
+        print <<<HTML
+            <div id="top-banner">
+                <div class="top-banner-bottom-buttons">
+                </div>
+            </div>
+HTML;
         parent::printViewContent();
         print $this->leaves['Carousel'];
         print <<<HTML
