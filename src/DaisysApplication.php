@@ -2,6 +2,7 @@
 
 namespace Daisys;
 
+use Daisys\Emails\DaisysBaseTemplatedEmail;
 use Daisys\Layouts\DaisysLayout;
 use Daisys\Leaves\DaisyIndexView;
 use Daisys\Leaves\Views\DaisysBasketPageView;
@@ -14,7 +15,10 @@ use Rhubarb\Crown\Layout\LayoutModule;
 use Rhubarb\Stem\Custard\SeedDemoDataCommand;
 use Rhubarb\Stem\Repositories\MySql\MySql;
 use Rhubarb\Stem\Repositories\Repository;
+use Rojr\Scaffold\Email\Templates\EmailTemplateModule;
 use SuperCMS\Custard\ApplicationDemoDataSeeder;
+use SuperCMS\Email\Providers\SEmailProvider;
+use SuperCMS\Email\SBaseEmail;
 use SuperCMS\Leaves\IndexView;
 use SuperCMS\Leaves\Site\Basket\BasketPageView;
 use SuperCMS\Leaves\Site\Product\ProductItemView;
@@ -39,6 +43,8 @@ class DaisysApplication extends Application
         HashProvider::setProviderClassName(Sha512HashProvider::class);
 
         LayoutModule::setLayoutClassName(DaisysLayout::class);
+
+        EmailTemplateModule::replaceEmailTemplate(SBaseEmail::class, DaisysBaseTemplatedEmail::class);
 
         $this->container()->registerClass(IndexView::class, DaisyIndexView::class);
         $this->container()->registerClass(ProductItemView::class, ProductView::class);
