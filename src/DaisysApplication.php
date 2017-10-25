@@ -17,7 +17,6 @@ use Rhubarb\Stem\Repositories\MySql\MySql;
 use Rhubarb\Stem\Repositories\Repository;
 use Rojr\Scaffold\Email\Templates\EmailTemplateModule;
 use SuperCMS\Custard\ApplicationDemoDataSeeder;
-use SuperCMS\Email\Providers\SEmailProvider;
 use SuperCMS\Email\SBaseEmail;
 use SuperCMS\Leaves\IndexView;
 use SuperCMS\Leaves\Site\Basket\BasketPageView;
